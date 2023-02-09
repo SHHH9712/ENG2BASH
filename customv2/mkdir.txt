@@ -8,7 +8,6 @@
 8. mkdir -v Documents/Work/Reports - Creates a new folder called 'Reports' inside the existing folder 'Work' which is inside the existing folder 'Documents' and displays a verbose output
 9. mkdir --parents Documents/Work/Reports - Creates a new folder called 'Reports' inside the existing folder 'Work' which is inside the existing folder 'Documents' and creates any missing parent directories
 10. mkdir -p --mode=u+rwx,g+rwx,o+rx Documents/Work/Reports - Creates a new folder called 'Reports' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx
-
 11. mkdir -m 777 Documents/Work/Projects - Creates a new folder called 'Projects' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 777
 12. mkdir -pv Documents/Work/Projects - Creates a new folder called 'Projects' inside the existing folder 'Work' which is inside the existing folder 'Documents' and displays a verbose output
 13. mkdir --parents --mode=u+rwx,g+rwx,o+rx Documents/Work/Projects - Creates a new folder called 'Projects' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx
@@ -19,7 +18,6 @@
 18. mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Work/Templates - Creates a new folder called 'Templates' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output
 19. mkdir --parents --mode=644 Documents/Work/Notes - Creates a new folder called 'Notes' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 644
 20. mkdir -m 711 Documents/Work/Notes - Creates a new folder called 'Notes' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 711
-
 21. mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Work/Notes - Creates a new folder called 'Notes' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output
 22. mkdir --parents --mode=755 Documents/Personal/Photos - Creates a new folder called 'Photos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to 755
 23. mkdir -m 644 Documents/Personal/Photos - Creates a new folder called 'Photos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to 644
@@ -30,7 +28,6 @@
 28. mkdir --parents --mode=755 Documents/Shared/Files - Creates a new folder called 'Files' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to 755
 29. mkdir -m 644 Documents/Shared/Files - Creates a new folder called 'Files' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to 644
 30. mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Shared/Files - Creates a new folder called 'Files' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output
-
 31. mkdir --parents --mode=644 Documents/Shared/Documents - Creates a new folder called 'Documents' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to 644
 32. mkdir -m 711 Documents/Shared/Documents - Creates a new folder called 'Documents' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to 711
 33. mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Shared/Documents - Creates a new folder called 'Documents' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output

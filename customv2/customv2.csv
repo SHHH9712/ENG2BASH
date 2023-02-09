@@ -1,0 +1,249 @@
+,output,input
+0,mv /home/user/Documents/file.txt /home/user/Desktop/,Moves the file.txt from the Documents folder to the Desktop folder.
+1,mv /home/user/Pictures/image.jpg /home/user/Downloads/,Moves the image.jpg from the Pictures folder to the Downloads folder.
+2,mv /home/user/Videos/video.mp4 /home/user/Music/,Moves the video.mp4 from the Videos folder to the Music folder.
+3,mv /home/user/Documents/report.docx /home/user/Pictures/,Moves the report.docx from the Documents folder to the Pictures folder.
+4,mv /home/user/Downloads/program.exe /home/user/Videos/,Moves the program.exe from the Downloads folder to the Videos folder.
+5,mv /home/user/Music/song.mp3 /home/user/Documents/,Moves the song.mp3 from the Music folder to the Documents folder.
+6,mv /home/user/Pictures/photo.png /home/user/Downloads/,Moves the photo.png from the Pictures folder to the Downloads folder.
+7,mv /home/user/Videos/movie.avi /home/user/Music/,Moves the movie.avi from the Videos folder to the Music folder.
+8,mv /home/user/Documents/letter.txt /home/user/Pictures/,Moves the letter.txt from the Documents folder to the Pictures folder.
+9,mv /home/user/Downloads/software.msi /home/user/Videos/,Moves the software.msi from the Downloads folder to the Videos folder.
+10,mv /home/user/Music/album.zip /home/user/Documents/,Moves the album.zip from the Music folder to the Documents folder.
+11,mv /home/user/Pictures/image2.jpg /home/user/Downloads/,Moves the image2.jpg from the Pictures folder to the Downloads folder.
+12,mv /home/user/Videos/video2.mp4 /home/user/Music/,Moves the video2.mp4 from the Videos folder to the Music folder.
+13,mv /home/user/Documents/report2.docx /home/user/Pictures/,Moves the report2.docx from the Documents folder to the Pictures folder.
+14,mv /home/user/Downloads/program2.exe /home/user/Videos/,Moves the program2.exe from the Downloads folder to the Videos folder.
+15,mv /home/user/Music/song2.mp3 /home/user/Documents/,Moves the song2.mp3 from the Music folder to the Documents folder.
+16,mv /home/user/Pictures/photo2.png /home/user/Downloads/,Moves the photo2.png from the Pictures folder to the Downloads folder.
+17,mv /home/user/Videos/movie2.avi /home/user/Music/,Moves the movie2.avi from the Videos folder to the Music folder.
+18,mv /home/user/Documents/letter2.txt /home/user/Pictures/,Moves the letter2.txt from the Documents folder to the Pictures folder.
+19,mv /home/user/Downloads/software2.msi /home/user/Videos/,Moves the software2.msi from the Downloads folder to the Videos folder.
+20,mv /home/user/Music/album2.zip /home/user/Documents/,Moves the album2.zip from the Music folder to the Documents folder.
+21,mv /home/user/Pictures/image3.jpg /home/user/Downloads/,Moves the image3.jpg from the Pictures folder to the Downloads folder.
+22,mv /home/user/Videos/video3.mp4 /home/user/Music/,Moves the video3.mp4 from the Videos folder to the Music folder.
+23,mv /home/user/Documents/report3.docx /home/user/Pictures/,Moves the report3.docx from the Documents folder to the Pictures folder.
+24,mv /home/user/Downloads/program3.exe /home/user/Videos/,Moves the program3.exe from the Downloads folder to the Videos folder.
+25,mv /home/user/Music/song3.mp3 /home/user/Documents/,Moves the song3.mp3 from the Music folder to the Documents folder.
+26,mv /home/user/Pictures/photo3.png /home/user/Downloads/,Moves the photo3.png from the Pictures folder to the Downloads folder.
+27,mv /home/user/Videos/movie3.avi /home/user/Music/,Moves the movie3.avi from the Videos folder to the Music folder.
+28,mv /home/user/Documents/letter3.txt /home/user/Pictures/,Moves the letter3.txt from the Documents folder to the Pictures folder.
+29,mv /home/user/Downloads/software3.msi /home/user/Videos/,Moves the software3.msi from the Downloads folder to the Videos folder.
+30,mv /home/user/Music/album3.zip /home/user/Documents/,Moves the album3.zip from the Music folder to the Documents folder.
+31,mv /home/user/Pictures/image4.jpg /home/user/Downloads/,Moves the image4.jpg from the Pictures folder to the Downloads folder.
+32,mv /home/user/Videos/video4.mp4 /home/user/Music/,Moves the video4.mp4 from the Videos folder to the Music folder.
+33,mv /home/user/Documents/report4.docx /home/user/Pictures/,Moves the report4.docx from the Documents folder to the Pictures folder.
+34,mv /home/user/Downloads/program4.exe /home/user/Videos/,Moves the program4.exe from the Downloads folder to the Videos folder.
+35,mv /home/user/Music/song4.mp3 /home/user/Documents/,Moves the song4.mp3 from the Music folder to the Documents folder.
+36,mv /home/user/Pictures/photo4.png /home/user/Downloads/,Moves the photo4.png from the Pictures folder to the Downloads folder.
+37,mv /home/user/Videos/movie4.avi /home/user/Music/,Moves the movie4.avi from the Videos folder to the Music folder.
+38,mv /home/user/Documents/letter4.txt /home/user/Pictures/,Moves the letter4.txt from the Documents folder to the Pictures folder.
+39,mv /home/user/Downloads/software4.msi /home/user/Videos/,Moves the software4.msi from the Downloads folder to the Videos folder.
+40,mv /home/user/Music/album4.zip /home/user/Documents/,Moves the album4.zip from the Music folder to the Documents folder.
+41,mv /home/user/Pictures/image5.jpg /home/user/Downloads/,Moves the image5.jpg from the Pictures folder to the Downloads folder.
+42,mv /home/user/Videos/video5.mp4 /home/user/Music/,Moves the video5.mp4 from the Videos folder to the Music folder.
+43,mv /home/user/Documents/report5.docx /home/user/Pictures/,Moves the report5.docx from the Documents folder to the Pictures folder.
+44,mv /home/user/Downloads/program5.exe /home/user/Videos/,Moves the program5.exe from the Downloads folder to the Videos folder.
+45,mv /home/user/Music/song5.mp3 /home/user/Documents/,Moves the song5.mp3 from the Music folder to the Documents folder.
+46,mv /home/user/Pictures/photo5.png /home/user/Downloads/,Moves the photo5.png from the Pictures folder to the Downloads folder.
+47,mv /home/user/Videos/movie5.avi /home/user/Music/,Moves the movie5.avi from the Videos folder to the Music folder.
+48,mv /home/user/Documents/letter5.txt /home/user/Pictures/,Moves the letter5.txt from the Documents folder to the Pictures folder.
+49,mv /home/user/Downloads/software5.msi /home/user/Videos/,Moves the software5.msi from the Downloads folder to the Videos folder.
+50,ls -l /home/user,List the contents of the user's home directory in long format
+51,ls -a /etc,"List all files, including hidden ones, in the etc directory"
+52,ls -R /usr/bin,Recursively list all files and subdirectories in the usr/bin directory
+53,ls -t /var/log,List the contents of the log directory sorted by modification time
+54,ls -S /opt,List the contents of the opt directory sorted by file size
+55,ls -F /dev,List the contents of the dev directory with indicators for types of files
+56,ls -h /tmp,List the contents of the tmp directory with human-readable file sizes
+57,ls -d /var/lib,List only the directories in the lib directory
+58,ls -1 /var/spool,List the contents of the spool directory in a single column
+59,ls -R /usr/local,Recursively list all files and subdirectories in the usr/local directory
+60,ls -ltr /bin,List the contents of the bin directory in long format sorted by modification time
+61,ls -R /sbin,Recursively list all files and subdirectories in the sbin directory
+62,ls -F /var/cache,List the contents of the cache directory with indicators for types of files
+63,ls -h /usr/share,List the contents of the share directory with human-readable file sizes
+64,ls -1 /etc/init.d,List the contents of the init.d directory in a single column
+65,ls -lS /usr/lib,List the contents of the lib directory in long format sorted by file size
+66,ls -d /var/log/apache2,List only the directories in the apache2 log directory
+67,ls -R /usr/sbin,Recursively list all files and subdirectories in the usr/sbin directory
+68,ls -F /etc/cron.d,List the contents of the cron.d directory with indicators for types of files
+69,ls -h /var/lib/mysql,List the contents of the mysql directory with human-readable file sizes
+70,ls -1 /usr/local/bin,List the contents of the bin directory in a single column
+71,ls -ltr /etc/apache2,List the contents of the apache2 directory in long format sorted by modification time
+72,ls -R /var/spool/mail,Recursively list all files and subdirectories in the mail spool directory
+73,ls -F /usr/share/man,List the contents of the man directory with indicators for types of files
+74,ls -h /usr/lib64,List the contents of the lib64 directory with human-readable file sizes
+75,ls -1 /var/cache/apt,List the contents of the apt cache directory in a single column
+76,ls -lS /usr/local/lib,List the contents of the lib directory in long format sorted by file size
+77,ls -d /etc/cron.daily,List only the directories in the cron.daily directory
+78,ls -R /usr/include,Recursively list all files and subdirectories in the usr/include directory
+79,ls -F /var/log/syslog,List the contents of the syslog log directory with indicators for types of files
+80,ls -h /usr/bin,List the contents of the bin directory with human-readable file sizes
+81,ls -1 /var/lib/dpkg,List the contents of the dpkg directory in a single column
+82,ls -ltr /etc/init.d,List the contents of the init.d directory in long format sorted by modification time
+83,ls -R /usr/sbin/apache2,Recursively list all files and subdirectories in the apache2 sbin directory
+84,ls -F /usr/local/share,List the contents of the share directory with indicators for types of files
+85,ls -h /var/log/cron,List the contents of the cron log directory with human-readable file sizes
+86,ls -1 /usr/lib/x86_64-linux-gnu,List the contents of the x86_64-linux-gnu directory in a single column
+87,ls -lS /etc/apache2,List the contents of the apache2 directory in long format sorted by file size
+88,ls -d /var/cache/man,List only the directories in the man cache directory
+89,ls -R /usr/lib/python2.7,Recursively list all files and subdirectories in the python2.7 lib directory
+90,ls -F /usr/local/bin,List the contents of the bin directory with indicators for types of files
+91,ls -h /var/spool/cron,List the contents of the cron spool directory with human-readable file sizes
+92,ls -1 /etc/apache2/mods-enabled,List the contents of the mods-enabled directory in a single column
+93,ls -ltr /usr/include,List the contents of the include directory in long format sorted by modification time
+94,ls -R /usr/lib/systemd,Recursively list all files and subdirectories in the systemd lib directory
+95,ls -F /var/lib/dpkg,List the contents of the dpkg directory with indicators for types of files
+96,ls -h /usr/local/lib,List the contents of the lib directory with human-readable file sizes
+97,ls -1 /var/cache/apt/archives,List the contents of the apt archives cache directory in a single column
+98,ls -lS /usr/share/man,List the contents of the man directory in long format sorted by file size
+99,ls -d /etc/cron.hourly,List only the directories in the cron.hourly directory
+100,cd /home/user,Change the current working directory to the user's home directory.
+101,cd ..,Move up one directory level.
+102,cd Documents,Change the current working directory to the Documents folder.
+103,cd ~,Change the current working directory to the user's home directory.
+104,cd /usr/local/bin,Change the current working directory to the local bin directory.
+105,cd,Change the current working directory to the previous directory.
+106,cd /etc,Change the current working directory to the etc directory.
+107,cd /var/log,Change the current working directory to the log directory.
+108,cd /opt,Change the current working directory to the opt directory.
+109,cd /tmp,Change the current working directory to the tmp directory.
+110,cd /usr/share,Change the current working directory to the share directory.
+111,cd /dev,Change the current working directory to the dev directory.
+112,cd /sbin,Change the current working directory to the sbin directory.
+113,cd /lib,Change the current working directory to the lib directory.
+114,cd /mnt,Change the current working directory to the mnt directory.
+115,cd /media,Change the current working directory to the media directory.
+116,cd /srv,Change the current working directory to the srv directory.
+117,cd /boot,Change the current working directory to the boot directory.
+118,cd /root,Change the current working directory to the root directory.
+119,cd /usr/local,Change the current working directory to the local directory.
+120,cd /usr/bin,Change the current working directory to the bin directory.
+121,cd /usr/sbin,Change the current working directory to the sbin directory.
+122,cd /usr/lib,Change the current working directory to the lib directory.
+123,cd /usr/include,Change the current working directory to the include directory.
+124,cd /usr/src,Change the current working directory to the src directory.
+125,cd /usr/games,Change the current working directory to the games directory.
+126,cd /usr/local/games,Change the current working directory to the local games directory.
+127,cd /usr/local/lib,Change the current working directory to the local lib directory.
+128,cd /usr/local/include,Change the current working directory to the local include directory.
+129,cd /usr/local/src,Change the current working directory to the local src directory.
+130,cd /usr/local/share,Change the current working directory to the local share directory.
+131,cd /usr/local/bin/scripts,Change the current working directory to the local bin scripts directory.
+132,cd /usr/local/sbin/scripts,Change the current working directory to the local sbin scripts directory.
+133,cd /usr/local/lib/scripts,Change the current working directory to the local lib scripts directory.
+134,cd /usr/local/include/scripts,Change the current working directory to the local include scripts directory.
+135,cd /usr/local/src/scripts,Change the current working directory to the local src scripts directory.
+136,cd /usr/local/share/scripts,Change the current working directory to the local share scripts directory.
+137,cd /usr/local/bin/programs,Change the current working directory to the local bin programs directory.
+138,cd /usr/local/sbin/programs,Change the current working directory to the local sbin programs directory.
+139,cd /usr/local/lib/programs,Change the current working directory to the local lib programs directory.
+140,cd /usr/local/include/programs,Change the current working directory to the local include programs directory.
+141,cd /usr/local/src/programs,Change the current working directory to the local src programs directory.
+142,cd /usr/local/share/programs,Change the current working directory to the local share programs directory.
+143,cd /usr/local/bin/data,Change the current working directory to the local bin data directory.
+144,cd /usr/local/sbin/data,Change the current working directory to the local sbin data directory.
+145,cd /usr/local/lib/data,Change the current working directory to the local lib data directory.
+146,cd /usr/local/include/data,Change the current working directory to the local include data directory.
+147,cd /usr/local/src/data,Change the current working directory to the local src data directory.
+148,cd /usr/local/share/data,Change the current working directory to the local share data directory.
+149,cd /usr/local/bin/config,Change the current working directory to the local bin config directory.
+150,cd /usr/local/sbin/config,Change the current working directory to the local sbin config directory.
+151,cd /usr/local/lib/config,Change the current working directory to the local lib config directory.
+152,cd /usr/local/include/config,Change the current working directory to the local include config directory.
+153,cd /usr/local/src/config,Change the current working directory to the local src config directory.
+154,cd /usr/local/share/config,Change the current working directory to the local share config directory.
+155,cd /usr/local/bin/logs,Change the current working directory to the local bin logs directory.
+156,cd /usr/local/sbin/logs,Change the current working directory to the local sbin logs directory.
+157,cd /usr/local/lib/logs,Change the current working directory to the local lib logs directory.
+158,cd /usr/local/include/logs,Change the current working directory to the local include logs directory.
+159,cd /usr/local/src/logs,Change the current working directory to the local src logs directory.
+160,cd /usr/local/share/logs,Change the current working directory to the local share logs directory.
+161,cd /usr/local/bin/cache,Change the current working directory to the local bin cache directory.
+162,cd /usr/local/sbin/cache,Change the current working directory to the local sbin cache directory.
+163,cd /usr/local/lib/cache,Change the current working directory to the local lib cache directory.
+164,cd /usr/local/include/cache,Change the current working directory to the local include cache directory.
+165,cd /usr/local/src/cache,Change the current working directory to the local src cache directory.
+166,cd /usr/local/share/cache,Change the current working directory to the local share cache directory.
+167,mkdir Documents,Creates a new folder called 'Documents'
+168,mkdir Pictures/Vacation,Creates a new folder called 'Vacation' inside the existing folder 'Pictures'
+169,mkdir ~/Desktop/Projects,Creates a new folder called 'Projects' on the Desktop of the user's home directory
+170,mkdir /usr/local/bin,Creates a new folder called 'bin' in the '/usr/local' directory
+171,mkdir ../Music,Creates a new folder called 'Music' in the parent directory of the current working directory
+172,mkdir -p Documents/Work/Reports,Creates a new folder called 'Reports' inside the existing folder 'Work' which is inside the existing folder 'Documents'
+173,mkdir -m 755 Documents/Work/Reports,Creates a new folder called 'Reports' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 755
+174,mkdir -v Documents/Work/Reports,Creates a new folder called 'Reports' inside the existing folder 'Work' which is inside the existing folder 'Documents' and displays a verbose output
+175,mkdir --parents Documents/Work/Reports,Creates a new folder called 'Reports' inside the existing folder 'Work' which is inside the existing folder 'Documents' and creates any missing parent directories
+176,"mkdir -p --mode=u+rwx,g+rwx,o+rx Documents/Work/Reports","Creates a new folder called 'Reports' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx"
+177,mkdir -m 777 Documents/Work/Projects,Creates a new folder called 'Projects' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 777
+178,mkdir -pv Documents/Work/Projects,Creates a new folder called 'Projects' inside the existing folder 'Work' which is inside the existing folder 'Documents' and displays a verbose output
+179,"mkdir --parents --mode=u+rwx,g+rwx,o+rx Documents/Work/Projects","Creates a new folder called 'Projects' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx"
+180,mkdir -m 775 Documents/Work/Presentations,Creates a new folder called 'Presentations' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 775
+181,"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Work/Presentations","Creates a new folder called 'Presentations' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+182,mkdir --parents --mode=755 Documents/Work/Templates,Creates a new folder called 'Templates' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 755
+183,mkdir -m 644 Documents/Work/Templates,Creates a new folder called 'Templates' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 644
+184,"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Work/Templates","Creates a new folder called 'Templates' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+185,mkdir --parents --mode=644 Documents/Work/Notes,Creates a new folder called 'Notes' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 644
+186,mkdir -m 711 Documents/Work/Notes,Creates a new folder called 'Notes' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 711
+187,"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Work/Notes","Creates a new folder called 'Notes' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+188,mkdir --parents --mode=755 Documents/Personal/Photos,Creates a new folder called 'Photos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to 755
+189,mkdir -m 644 Documents/Personal/Photos,Creates a new folder called 'Photos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to 644
+190,"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Personal/Photos","Creates a new folder called 'Photos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+191,mkdir --parents --mode=644 Documents/Personal/Videos,Creates a new folder called 'Videos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to 644
+192,mkdir -m 711 Documents/Personal/Videos,Creates a new folder called 'Videos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to 711
+193,"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Personal/Videos","Creates a new folder called 'Videos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+194,mkdir --parents --mode=755 Documents/Shared/Files,Creates a new folder called 'Files' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to 755
+195,mkdir -m 644 Documents/Shared/Files,Creates a new folder called 'Files' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to 644
+196,"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Shared/Files","Creates a new folder called 'Files' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+197,mkdir --parents --mode=644 Documents/Shared/Documents,Creates a new folder called 'Documents' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to 644
+198,mkdir -m 711 Documents/Shared/Documents,Creates a new folder called 'Documents' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to 711
+199,"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Shared/Documents","Creates a new folder called 'Documents' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+200,mkdir --parents --mode=755 Documents/Archive/Projects,Creates a new folder called 'Projects' inside the existing folder 'Archive' which is inside the existing folder 'Documents' and sets the permissions to 755
+201,mkdir -m 644 Documents/Archive/Projects,Creates a new folder called 'Projects' inside the existing folder 'Archive' which is inside the existing folder 'Documents' and sets the permissions to 644
+202,rm /home/user/Documents/file.txt,Removes the file.txt from the Documents folder in the user's home directory.
+203,rm -r /home/user/Pictures,Removes the Pictures folder and all its contents from the user's home directory.
+204,rm -f /home/user/Downloads/*.pdf,Removes all PDF files from the Downloads folder in the user's home directory.
+205,rm -rf /home/user/Music/*,Removes all files and folders from the Music folder in the user's home directory.
+206,rm -i /home/user/Videos/*.mp4,Prompts the user to confirm before removing all MP4 files from the Videos folder in the user's home directory.
+207,rm -v /home/user/Documents/*.docx,Verbosely removes all DOCX files from the Documents folder in the user's home directory.
+208,rm -rf /home/user/Pictures/*.jpg,"Removes all JPG files from the Pictures folder in the user's home directory, including any subdirectories."
+209,rm -f /home/user/Downloads/*.exe,Forcefully removes all EXE files from the Downloads folder in the user's home directory.
+210,rm -r /home/user/Music/,Recursively removes the Music folder and all its contents from the user's home directory.
+211,rm -i /home/user/Videos/*.avi,Prompts the user to confirm before removing all AVI files from the Videos folder in the user's home directory.
+212,rm -v /home/user/Documents/*.doc,Verbosely removes all DOC files from the Documents folder in the user's home directory.
+213,rm -rf /home/user/Pictures/*.png,"Removes all PNG files from the Pictures folder in the user's home directory, including any subdirectories."
+214,rm -f /home/user/Downloads/*.zip,Forcefully removes all ZIP files from the Downloads folder in the user's home directory.
+215,rm -r /home/user/Music/*.mp3,Recursively removes all MP3 files from the Music folder in the user's home directory.
+216,rm -i /home/user/Videos/*.mov,Prompts the user to confirm before removing all MOV files from the Videos folder in the user's home directory.
+217,rm -v /home/user/Documents/*.xlsx,Verbosely removes all XLSX files from the Documents folder in the user's home directory.
+218,rm -rf /home/user/Pictures/*.gif,"Removes all GIF files from the Pictures folder in the user's home directory, including any subdirectories."
+219,rm -f /home/user/Downloads/*.iso,Forcefully removes all ISO files from the Downloads folder in the user's home directory.
+220,rm -r /home/user/Music/*.wav,Recursively removes all WAV files from the Music folder in the user's home directory.
+221,rm -i /home/user/Videos/*.mkv,Prompts the user to confirm before removing all MKV files from the Videos folder in the user's home directory.
+222,rm -v /home/user/Documents/*.pptx,Verbosely removes all PPTX files from the Documents folder in the user's home directory.
+223,rm -rf /home/user/Pictures/*.bmp,"Removes all BMP files from the Pictures folder in the user's home directory, including any subdirectories."
+224,rm -f /home/user/Downloads/*.rar,Forcefully removes all RAR files from the Downloads folder in the user's home directory.
+225,rm -r /home/user/Music/*.ogg,Recursively removes all OGG files from the Music folder in the user's home directory.
+226,rm -i /home/user/Videos/*.flv,Prompts the user to confirm before removing all FLV files from the Videos folder in the user's home directory.
+227,rm -v /home/user/Documents/*.odt,Verbosely removes all ODT files from the Documents folder in the user's home directory.
+228,rm -rf /home/user/Pictures/*.tiff,"Removes all TIFF files from the Pictures folder in the user's home directory, including any subdirectories."
+229,rm -f /home/user/Downloads/*.tar,Forcefully removes all TAR files from the Downloads folder in the user's home directory.
+230,rm -r /home/user/Music/*.aac,Recursively removes all AAC files from the Music folder in the user's home directory.
+231,rm -i /home/user/Videos/*.wmv,Prompts the user to confirm before removing all WMV files from the Videos folder in the user's home directory.
+232,rm -v /home/user/Documents/*.rtf,Verbosely removes all RTF files from the Documents folder in the user's home directory.
+233,rm -rf /home/user/Pictures/*.jpeg,"Removes all JPEG files from the Pictures folder in the user's home directory, including any subdirectories."
+234,rm -f /home/user/Downloads/*.7z,Forcefully removes all 7Z files from the Downloads folder in the user's home directory.
+235,rm -r /home/user/Music/*.m4a,Recursively removes all M4A files from the Music folder in the user's home directory.
+236,rm -i /home/user/Videos/*.webm,Prompts the user to confirm before removing all WEBM files from the Videos folder in the user's home directory.
+237,rm -v /home/user/Documents/*.txt,Verbosely removes all TXT files from the Documents folder in the user's home directory.
+238,rm -rf /home/user/Pictures/*.svg,"Removes all SVG files from the Pictures folder in the user's home directory, including any subdirectories."
+239,rm -f /home/user/Downloads/*.dmg,Forcefully removes all DMG files from the Downloads folder in the user's home directory.
+240,rm -r /home/user/Music/*.flac,Recursively removes all FLAC files from the Music folder in the user's home directory.
+241,rm -i /home/user/Videos/*.mpg,Prompts the user to confirm before removing all MPG files from the Videos folder in the user's home directory.
+242,rm -v /home/user/Documents/*.html,Verbosely removes all HTML files from the Documents folder in the user's home directory.
+243,rm -rf /home/user/Pictures/*.png,"Removes all PNG files from the Pictures folder in the user's home directory, including any subdirectories."
+244,rm -f /home/user/Downloads/*.deb,Forcefully removes all DEB files from the Downloads folder in the user's home directory.
+245,rm -r /home/user/Music/*.midi,Recursively removes all MIDI files from the Music folder in the user's home directory.
+246,rm -i /home/user/Videos/*.3gp,Prompts the user to confirm before removing all 3GP files from the Videos folder in the user's home directory.
+247,rm -v /home/user/Documents/*.csv,Verbosely removes all CSV files from the Documents
