@@ -1,0 +1,248 @@
+cd /home/user
+cd ..
+cd Documents
+cd ~
+cd /usr/local/bin
+cd
+cd /etc
+cd /var/log
+cd /opt
+cd /tmp
+cd /usr/share
+cd /dev
+cd /sbin
+cd /lib
+cd /mnt
+cd /media
+cd /srv
+cd /boot
+cd /root
+cd /usr/local
+cd /usr/bin
+cd /usr/sbin
+cd /usr/lib
+cd /usr/include
+cd /usr/src
+cd /usr/games
+cd /usr/local/games
+cd /usr/local/lib
+cd /usr/local/include
+cd /usr/local/src
+cd /usr/local/share
+cd /usr/local/bin/scripts
+cd /usr/local/sbin/scripts
+cd /usr/local/lib/scripts
+cd /usr/local/include/scripts
+cd /usr/local/src/scripts
+cd /usr/local/share/scripts
+cd /usr/local/bin/programs
+cd /usr/local/sbin/programs
+cd /usr/local/lib/programs
+cd /usr/local/include/programs
+cd /usr/local/src/programs
+cd /usr/local/share/programs
+cd /usr/local/bin/data
+cd /usr/local/sbin/data
+cd /usr/local/lib/data
+cd /usr/local/include/data
+cd /usr/local/src/data
+cd /usr/local/share/data
+cd /usr/local/bin/config
+cd /usr/local/sbin/config
+cd /usr/local/lib/config
+cd /usr/local/include/config
+cd /usr/local/src/config
+cd /usr/local/share/config
+cd /usr/local/bin/logs
+cd /usr/local/sbin/logs
+cd /usr/local/lib/logs
+cd /usr/local/include/logs
+cd /usr/local/src/logs
+cd /usr/local/share/logs
+cd /usr/local/bin/cache
+cd /usr/local/sbin/cache
+cd /usr/local/lib/cache
+cd /usr/local/include/cache
+cd /usr/local/src/cache
+cd /usr/local/share/cache
+ls -l /home/user
+ls -a /etc
+ls -R /usr/bin
+ls -t /var/log
+ls -S /opt
+ls -F /dev
+ls -h /tmp
+ls -d /var/lib
+ls -1 /var/spool
+ls -R /usr/local
+ls -ltr /bin
+ls -R /sbin
+ls -F /var/cache
+ls -h /usr/share
+ls -1 /etc/init.d
+ls -lS /usr/lib
+ls -d /var/log/apache2
+ls -R /usr/sbin
+ls -F /etc/cron.d
+ls -h /var/lib/mysql
+ls -1 /usr/local/bin
+ls -ltr /etc/apache2
+ls -R /var/spool/mail
+ls -F /usr/share/man
+ls -h /usr/lib64
+ls -1 /var/cache/apt
+ls -lS /usr/local/lib
+ls -d /etc/cron.daily
+ls -R /usr/include
+ls -F /var/log/syslog
+ls -h /usr/bin
+ls -1 /var/lib/dpkg
+ls -ltr /etc/init.d
+ls -R /usr/sbin/apache2
+ls -F /usr/local/share
+ls -h /var/log/cron
+ls -1 /usr/lib/x86_64-linux-gnu
+ls -lS /etc/apache2
+ls -d /var/cache/man
+ls -R /usr/lib/python2.7
+ls -F /usr/local/bin
+ls -h /var/spool/cron
+ls -1 /etc/apache2/mods-enabled
+ls -ltr /usr/include
+ls -R /usr/lib/systemd
+ls -F /var/lib/dpkg
+ls -h /usr/local/lib
+ls -1 /var/cache/apt/archives
+ls -lS /usr/share/man
+ls -d /etc/cron.hourly
+mkdir Documents
+mkdir Pictures/Vacation
+mkdir ~/Desktop/Projects
+mkdir /usr/local/bin
+mkdir ../Music
+mkdir -p Documents/Work/Reports
+mkdir -m 755 Documents/Work/Reports
+mkdir -v Documents/Work/Reports
+mkdir --parents Documents/Work/Reports
+"mkdir -p --mode=u+rwx,g+rwx,o+rx Documents/Work/Reports"
+mkdir -m 777 Documents/Work/Projects
+mkdir -pv Documents/Work/Projects
+"mkdir --parents --mode=u+rwx,g+rwx,o+rx Documents/Work/Projects"
+mkdir -m 775 Documents/Work/Presentations
+"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Work/Presentations"
+mkdir --parents --mode=755 Documents/Work/Templates
+mkdir -m 644 Documents/Work/Templates
+"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Work/Templates"
+mkdir --parents --mode=644 Documents/Work/Notes
+mkdir -m 711 Documents/Work/Notes
+"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Work/Notes"
+mkdir --parents --mode=755 Documents/Personal/Photos
+mkdir -m 644 Documents/Personal/Photos
+"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Personal/Photos"
+mkdir --parents --mode=644 Documents/Personal/Videos
+mkdir -m 711 Documents/Personal/Videos
+"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Personal/Videos"
+mkdir --parents --mode=755 Documents/Shared/Files
+mkdir -m 644 Documents/Shared/Files
+"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Shared/Files"
+mkdir --parents --mode=644 Documents/Shared/Documents
+mkdir -m 711 Documents/Shared/Documents
+"mkdir -pv --mode=u+rwx,g+rwx,o+rx Documents/Shared/Documents"
+mkdir --parents --mode=755 Documents/Archive/Projects
+mkdir -m 644 Documents/Archive/Projects
+mv /home/user/Documents/file.txt /home/user/Desktop/
+mv /home/user/Pictures/image.jpg /home/user/Downloads/
+mv /home/user/Videos/video.mp4 /home/user/Music/
+mv /home/user/Documents/report.docx /home/user/Pictures/
+mv /home/user/Downloads/program.exe /home/user/Videos/
+mv /home/user/Music/song.mp3 /home/user/Documents/
+mv /home/user/Pictures/photo.png /home/user/Downloads/
+mv /home/user/Videos/movie.avi /home/user/Music/
+mv /home/user/Documents/letter.txt /home/user/Pictures/
+mv /home/user/Downloads/software.msi /home/user/Videos/
+mv /home/user/Music/album.zip /home/user/Documents/
+mv /home/user/Pictures/image2.jpg /home/user/Downloads/
+mv /home/user/Videos/video2.mp4 /home/user/Music/
+mv /home/user/Documents/report2.docx /home/user/Pictures/
+mv /home/user/Downloads/program2.exe /home/user/Videos/
+mv /home/user/Music/song2.mp3 /home/user/Documents/
+mv /home/user/Pictures/photo2.png /home/user/Downloads/
+mv /home/user/Videos/movie2.avi /home/user/Music/
+mv /home/user/Documents/letter2.txt /home/user/Pictures/
+mv /home/user/Downloads/software2.msi /home/user/Videos/
+mv /home/user/Music/album2.zip /home/user/Documents/
+mv /home/user/Pictures/image3.jpg /home/user/Downloads/
+mv /home/user/Videos/video3.mp4 /home/user/Music/
+mv /home/user/Documents/report3.docx /home/user/Pictures/
+mv /home/user/Downloads/program3.exe /home/user/Videos/
+mv /home/user/Music/song3.mp3 /home/user/Documents/
+mv /home/user/Pictures/photo3.png /home/user/Downloads/
+mv /home/user/Videos/movie3.avi /home/user/Music/
+mv /home/user/Documents/letter3.txt /home/user/Pictures/
+mv /home/user/Downloads/software3.msi /home/user/Videos/
+mv /home/user/Music/album3.zip /home/user/Documents/
+mv /home/user/Pictures/image4.jpg /home/user/Downloads/
+mv /home/user/Videos/video4.mp4 /home/user/Music/
+mv /home/user/Documents/report4.docx /home/user/Pictures/
+mv /home/user/Downloads/program4.exe /home/user/Videos/
+mv /home/user/Music/song4.mp3 /home/user/Documents/
+mv /home/user/Pictures/photo4.png /home/user/Downloads/
+mv /home/user/Videos/movie4.avi /home/user/Music/
+mv /home/user/Documents/letter4.txt /home/user/Pictures/
+mv /home/user/Downloads/software4.msi /home/user/Videos/
+mv /home/user/Music/album4.zip /home/user/Documents/
+mv /home/user/Pictures/image5.jpg /home/user/Downloads/
+mv /home/user/Videos/video5.mp4 /home/user/Music/
+mv /home/user/Documents/report5.docx /home/user/Pictures/
+mv /home/user/Downloads/program5.exe /home/user/Videos/
+mv /home/user/Music/song5.mp3 /home/user/Documents/
+mv /home/user/Pictures/photo5.png /home/user/Downloads/
+mv /home/user/Videos/movie5.avi /home/user/Music/
+mv /home/user/Documents/letter5.txt /home/user/Pictures/
+mv /home/user/Downloads/software5.msi /home/user/Videos/
+rm /home/user/Documents/file.txt
+rm -r /home/user/Pictures
+rm -f /home/user/Downloads/*.pdf
+rm -rf /home/user/Music/*
+rm -i /home/user/Videos/*.mp4
+rm -v /home/user/Documents/*.docx
+rm -rf /home/user/Pictures/*.jpg
+rm -f /home/user/Downloads/*.exe
+rm -r /home/user/Music/
+rm -i /home/user/Videos/*.avi
+rm -v /home/user/Documents/*.doc
+rm -rf /home/user/Pictures/*.png
+rm -f /home/user/Downloads/*.zip
+rm -r /home/user/Music/*.mp3
+rm -i /home/user/Videos/*.mov
+rm -v /home/user/Documents/*.xlsx
+rm -rf /home/user/Pictures/*.gif
+rm -f /home/user/Downloads/*.iso
+rm -r /home/user/Music/*.wav
+rm -i /home/user/Videos/*.mkv
+rm -v /home/user/Documents/*.pptx
+rm -rf /home/user/Pictures/*.bmp
+rm -f /home/user/Downloads/*.rar
+rm -r /home/user/Music/*.ogg
+rm -i /home/user/Videos/*.flv
+rm -v /home/user/Documents/*.odt
+rm -rf /home/user/Pictures/*.tiff
+rm -f /home/user/Downloads/*.tar
+rm -r /home/user/Music/*.aac
+rm -i /home/user/Videos/*.wmv
+rm -v /home/user/Documents/*.rtf
+rm -rf /home/user/Pictures/*.jpeg
+rm -f /home/user/Downloads/*.7z
+rm -r /home/user/Music/*.m4a
+rm -i /home/user/Videos/*.webm
+rm -v /home/user/Documents/*.txt
+rm -rf /home/user/Pictures/*.svg
+rm -f /home/user/Downloads/*.dmg
+rm -r /home/user/Music/*.flac
+rm -i /home/user/Videos/*.mpg
+rm -v /home/user/Documents/*.html
+rm -rf /home/user/Pictures/*.png
+rm -f /home/user/Downloads/*.deb
+rm -r /home/user/Music/*.midi
+rm -i /home/user/Videos/*.3gp
+rm -v /home/user/Documents/*.csv

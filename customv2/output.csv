@@ -1,0 +1,248 @@
+Change the current working directory to the user's home directory.
+Move up one directory level.
+Change the current working directory to the Documents folder.
+Change the current working directory to the user's home directory.
+Change the current working directory to the local bin directory.
+Change the current working directory to the previous directory.
+Change the current working directory to the etc directory.
+Change the current working directory to the log directory.
+Change the current working directory to the opt directory.
+Change the current working directory to the tmp directory.
+Change the current working directory to the share directory.
+Change the current working directory to the dev directory.
+Change the current working directory to the sbin directory.
+Change the current working directory to the lib directory.
+Change the current working directory to the mnt directory.
+Change the current working directory to the media directory.
+Change the current working directory to the srv directory.
+Change the current working directory to the boot directory.
+Change the current working directory to the root directory.
+Change the current working directory to the local directory.
+Change the current working directory to the bin directory.
+Change the current working directory to the sbin directory.
+Change the current working directory to the lib directory.
+Change the current working directory to the include directory.
+Change the current working directory to the src directory.
+Change the current working directory to the games directory.
+Change the current working directory to the local games directory.
+Change the current working directory to the local lib directory.
+Change the current working directory to the local include directory.
+Change the current working directory to the local src directory.
+Change the current working directory to the local share directory.
+Change the current working directory to the local bin scripts directory.
+Change the current working directory to the local sbin scripts directory.
+Change the current working directory to the local lib scripts directory.
+Change the current working directory to the local include scripts directory.
+Change the current working directory to the local src scripts directory.
+Change the current working directory to the local share scripts directory.
+Change the current working directory to the local bin programs directory.
+Change the current working directory to the local sbin programs directory.
+Change the current working directory to the local lib programs directory.
+Change the current working directory to the local include programs directory.
+Change the current working directory to the local src programs directory.
+Change the current working directory to the local share programs directory.
+Change the current working directory to the local bin data directory.
+Change the current working directory to the local sbin data directory.
+Change the current working directory to the local lib data directory.
+Change the current working directory to the local include data directory.
+Change the current working directory to the local src data directory.
+Change the current working directory to the local share data directory.
+Change the current working directory to the local bin config directory.
+Change the current working directory to the local sbin config directory.
+Change the current working directory to the local lib config directory.
+Change the current working directory to the local include config directory.
+Change the current working directory to the local src config directory.
+Change the current working directory to the local share config directory.
+Change the current working directory to the local bin logs directory.
+Change the current working directory to the local sbin logs directory.
+Change the current working directory to the local lib logs directory.
+Change the current working directory to the local include logs directory.
+Change the current working directory to the local src logs directory.
+Change the current working directory to the local share logs directory.
+Change the current working directory to the local bin cache directory.
+Change the current working directory to the local sbin cache directory.
+Change the current working directory to the local lib cache directory.
+Change the current working directory to the local include cache directory.
+Change the current working directory to the local src cache directory.
+Change the current working directory to the local share cache directory.
+List the contents of the user's home directory in long format
+"List all files, including hidden ones, in the etc directory"
+Recursively list all files and subdirectories in the usr/bin directory
+List the contents of the log directory sorted by modification time
+List the contents of the opt directory sorted by file size
+List the contents of the dev directory with indicators for types of files
+List the contents of the tmp directory with human-readable file sizes
+List only the directories in the lib directory
+List the contents of the spool directory in a single column
+Recursively list all files and subdirectories in the usr/local directory
+List the contents of the bin directory in long format sorted by modification time
+Recursively list all files and subdirectories in the sbin directory
+List the contents of the cache directory with indicators for types of files
+List the contents of the share directory with human-readable file sizes
+List the contents of the init.d directory in a single column
+List the contents of the lib directory in long format sorted by file size
+List only the directories in the apache2 log directory
+Recursively list all files and subdirectories in the usr/sbin directory
+List the contents of the cron.d directory with indicators for types of files
+List the contents of the mysql directory with human-readable file sizes
+List the contents of the bin directory in a single column
+List the contents of the apache2 directory in long format sorted by modification time
+Recursively list all files and subdirectories in the mail spool directory
+List the contents of the man directory with indicators for types of files
+List the contents of the lib64 directory with human-readable file sizes
+List the contents of the apt cache directory in a single column
+List the contents of the lib directory in long format sorted by file size
+List only the directories in the cron.daily directory
+Recursively list all files and subdirectories in the usr/include directory
+List the contents of the syslog log directory with indicators for types of files
+List the contents of the bin directory with human-readable file sizes
+List the contents of the dpkg directory in a single column
+List the contents of the init.d directory in long format sorted by modification time
+Recursively list all files and subdirectories in the apache2 sbin directory
+List the contents of the share directory with indicators for types of files
+List the contents of the cron log directory with human-readable file sizes
+List the contents of the x86_64-linux-gnu directory in a single column
+List the contents of the apache2 directory in long format sorted by file size
+List only the directories in the man cache directory
+Recursively list all files and subdirectories in the python2.7 lib directory
+List the contents of the bin directory with indicators for types of files
+List the contents of the cron spool directory with human-readable file sizes
+List the contents of the mods-enabled directory in a single column
+List the contents of the include directory in long format sorted by modification time
+Recursively list all files and subdirectories in the systemd lib directory
+List the contents of the dpkg directory with indicators for types of files
+List the contents of the lib directory with human-readable file sizes
+List the contents of the apt archives cache directory in a single column
+List the contents of the man directory in long format sorted by file size
+List only the directories in the cron.hourly directory
+Creates a new folder called 'Documents'
+Creates a new folder called 'Vacation' inside the existing folder 'Pictures'
+Creates a new folder called 'Projects' on the Desktop of the user's home directory
+Creates a new folder called 'bin' in the '/usr/local' directory
+Creates a new folder called 'Music' in the parent directory of the current working directory
+Creates a new folder called 'Reports' inside the existing folder 'Work' which is inside the existing folder 'Documents'
+Creates a new folder called 'Reports' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 755
+Creates a new folder called 'Reports' inside the existing folder 'Work' which is inside the existing folder 'Documents' and displays a verbose output
+Creates a new folder called 'Reports' inside the existing folder 'Work' which is inside the existing folder 'Documents' and creates any missing parent directories
+"Creates a new folder called 'Reports' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx"
+Creates a new folder called 'Projects' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 777
+Creates a new folder called 'Projects' inside the existing folder 'Work' which is inside the existing folder 'Documents' and displays a verbose output
+"Creates a new folder called 'Projects' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx"
+Creates a new folder called 'Presentations' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 775
+"Creates a new folder called 'Presentations' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+Creates a new folder called 'Templates' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 755
+Creates a new folder called 'Templates' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 644
+"Creates a new folder called 'Templates' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+Creates a new folder called 'Notes' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 644
+Creates a new folder called 'Notes' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to 711
+"Creates a new folder called 'Notes' inside the existing folder 'Work' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+Creates a new folder called 'Photos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to 755
+Creates a new folder called 'Photos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to 644
+"Creates a new folder called 'Photos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+Creates a new folder called 'Videos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to 644
+Creates a new folder called 'Videos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to 711
+"Creates a new folder called 'Videos' inside the existing folder 'Personal' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+Creates a new folder called 'Files' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to 755
+Creates a new folder called 'Files' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to 644
+"Creates a new folder called 'Files' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+Creates a new folder called 'Documents' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to 644
+Creates a new folder called 'Documents' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to 711
+"Creates a new folder called 'Documents' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
+Creates a new folder called 'Projects' inside the existing folder 'Archive' which is inside the existing folder 'Documents' and sets the permissions to 755
+Creates a new folder called 'Projects' inside the existing folder 'Archive' which is inside the existing folder 'Documents' and sets the permissions to 644
+Moves the file.txt from the Documents folder to the Desktop folder.
+Moves the image.jpg from the Pictures folder to the Downloads folder.
+Moves the video.mp4 from the Videos folder to the Music folder.
+Moves the report.docx from the Documents folder to the Pictures folder.
+Moves the program.exe from the Downloads folder to the Videos folder.
+Moves the song.mp3 from the Music folder to the Documents folder.
+Moves the photo.png from the Pictures folder to the Downloads folder.
+Moves the movie.avi from the Videos folder to the Music folder.
+Moves the letter.txt from the Documents folder to the Pictures folder.
+Moves the software.msi from the Downloads folder to the Videos folder.
+Moves the album.zip from the Music folder to the Documents folder.
+Moves the image2.jpg from the Pictures folder to the Downloads folder.
+Moves the video2.mp4 from the Videos folder to the Music folder.
+Moves the report2.docx from the Documents folder to the Pictures folder.
+Moves the program2.exe from the Downloads folder to the Videos folder.
+Moves the song2.mp3 from the Music folder to the Documents folder.
+Moves the photo2.png from the Pictures folder to the Downloads folder.
+Moves the movie2.avi from the Videos folder to the Music folder.
+Moves the letter2.txt from the Documents folder to the Pictures folder.
+Moves the software2.msi from the Downloads folder to the Videos folder.
+Moves the album2.zip from the Music folder to the Documents folder.
+Moves the image3.jpg from the Pictures folder to the Downloads folder.
+Moves the video3.mp4 from the Videos folder to the Music folder.
+Moves the report3.docx from the Documents folder to the Pictures folder.
+Moves the program3.exe from the Downloads folder to the Videos folder.
+Moves the song3.mp3 from the Music folder to the Documents folder.
+Moves the photo3.png from the Pictures folder to the Downloads folder.
+Moves the movie3.avi from the Videos folder to the Music folder.
+Moves the letter3.txt from the Documents folder to the Pictures folder.
+Moves the software3.msi from the Downloads folder to the Videos folder.
+Moves the album3.zip from the Music folder to the Documents folder.
+Moves the image4.jpg from the Pictures folder to the Downloads folder.
+Moves the video4.mp4 from the Videos folder to the Music folder.
+Moves the report4.docx from the Documents folder to the Pictures folder.
+Moves the program4.exe from the Downloads folder to the Videos folder.
+Moves the song4.mp3 from the Music folder to the Documents folder.
+Moves the photo4.png from the Pictures folder to the Downloads folder.
+Moves the movie4.avi from the Videos folder to the Music folder.
+Moves the letter4.txt from the Documents folder to the Pictures folder.
+Moves the software4.msi from the Downloads folder to the Videos folder.
+Moves the album4.zip from the Music folder to the Documents folder.
+Moves the image5.jpg from the Pictures folder to the Downloads folder.
+Moves the video5.mp4 from the Videos folder to the Music folder.
+Moves the report5.docx from the Documents folder to the Pictures folder.
+Moves the program5.exe from the Downloads folder to the Videos folder.
+Moves the song5.mp3 from the Music folder to the Documents folder.
+Moves the photo5.png from the Pictures folder to the Downloads folder.
+Moves the movie5.avi from the Videos folder to the Music folder.
+Moves the letter5.txt from the Documents folder to the Pictures folder.
+Moves the software5.msi from the Downloads folder to the Videos folder.
+Removes the file.txt from the Documents folder in the user's home directory.
+Removes the Pictures folder and all its contents from the user's home directory.
+Removes all PDF files from the Downloads folder in the user's home directory.
+Removes all files and folders from the Music folder in the user's home directory.
+Prompts the user to confirm before removing all MP4 files from the Videos folder in the user's home directory.
+Verbosely removes all DOCX files from the Documents folder in the user's home directory.
+"Removes all JPG files from the Pictures folder in the user's home directory, including any subdirectories."
+Forcefully removes all EXE files from the Downloads folder in the user's home directory.
+Recursively removes the Music folder and all its contents from the user's home directory.
+Prompts the user to confirm before removing all AVI files from the Videos folder in the user's home directory.
+Verbosely removes all DOC files from the Documents folder in the user's home directory.
+"Removes all PNG files from the Pictures folder in the user's home directory, including any subdirectories."
+Forcefully removes all ZIP files from the Downloads folder in the user's home directory.
+Recursively removes all MP3 files from the Music folder in the user's home directory.
+Prompts the user to confirm before removing all MOV files from the Videos folder in the user's home directory.
+Verbosely removes all XLSX files from the Documents folder in the user's home directory.
+"Removes all GIF files from the Pictures folder in the user's home directory, including any subdirectories."
+Forcefully removes all ISO files from the Downloads folder in the user's home directory.
+Recursively removes all WAV files from the Music folder in the user's home directory.
+Prompts the user to confirm before removing all MKV files from the Videos folder in the user's home directory.
+Verbosely removes all PPTX files from the Documents folder in the user's home directory.
+"Removes all BMP files from the Pictures folder in the user's home directory, including any subdirectories."
+Forcefully removes all RAR files from the Downloads folder in the user's home directory.
+Recursively removes all OGG files from the Music folder in the user's home directory.
+Prompts the user to confirm before removing all FLV files from the Videos folder in the user's home directory.
+Verbosely removes all ODT files from the Documents folder in the user's home directory.
+"Removes all TIFF files from the Pictures folder in the user's home directory, including any subdirectories."
+Forcefully removes all TAR files from the Downloads folder in the user's home directory.
+Recursively removes all AAC files from the Music folder in the user's home directory.
+Prompts the user to confirm before removing all WMV files from the Videos folder in the user's home directory.
+Verbosely removes all RTF files from the Documents folder in the user's home directory.
+"Removes all JPEG files from the Pictures folder in the user's home directory, including any subdirectories."
+Forcefully removes all 7Z files from the Downloads folder in the user's home directory.
+Recursively removes all M4A files from the Music folder in the user's home directory.
+Prompts the user to confirm before removing all WEBM files from the Videos folder in the user's home directory.
+Verbosely removes all TXT files from the Documents folder in the user's home directory.
+"Removes all SVG files from the Pictures folder in the user's home directory, including any subdirectories."
+Forcefully removes all DMG files from the Downloads folder in the user's home directory.
+Recursively removes all FLAC files from the Music folder in the user's home directory.
+Prompts the user to confirm before removing all MPG files from the Videos folder in the user's home directory.
+Verbosely removes all HTML files from the Documents folder in the user's home directory.
+"Removes all PNG files from the Pictures folder in the user's home directory, including any subdirectories."
+Forcefully removes all DEB files from the Downloads folder in the user's home directory.
+Recursively removes all MIDI files from the Music folder in the user's home directory.
+Prompts the user to confirm before removing all 3GP files from the Videos folder in the user's home directory.
+Verbosely removes all CSV files from the Documents
