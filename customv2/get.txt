@@ -1,0 +1,52 @@
+
+
+1. mkdir: Create a new directory in the current working directory.
+2. cd: Change the current working directory.
+3. ls: List the contents of the current working directory.
+4. mv: Move a file or directory from one location to another.
+5. cp: Copy a file or directory from one location to another.
+6. rm: Remove a file or directory from the current working directory.
+7. touch: Create an empty file in the current working directory.
+8. grep: Search for a string of text within a file or files.
+9. find: Search for files and directories in the current working directory and its subdirectories.
+10. chmod: Change the permissions of a file or directory.
+11. chown: Change the owner of a file or directory.
+12. tar: Create an archive of files and directories.
+13. gzip: Compress a file or directory using gzip compression.
+14. gunzip: Uncompress a file or directory using gzip compression.
+15. head: Display the first few lines of a file.
+16. tail: Display the last few lines of a file.
+17. cat: Display the contents of a file.
+18. sort: Sort the contents of a file alphabetically or numerically.
+19. uniq: Remove duplicate lines from a file.
+20. diff: Compare two files and display the differences between them.
+21. wc: Count the number of lines, words, and characters in a file.
+22. du: Display the disk usage of files and directories in the current working directory.
+23. df: Display the disk usage of the entire filesystem.
+24. rmdir: Remove an empty directory from the current working directory.
+25. ln: Create a symbolic link between two files or directories.
+26. chgrp: Change the group ownership of a file or directory.
+27. chroot: Change the root directory for the current process and its children processes.
+28. pwd: Print the current working directory pathname to standard output.
+29. echo: Print a line of text to standard output.
+30. export: Set an environment variable for the current shell session.
+31. source: Execute commands from a file in the current shell session.
+32. history: Display a list of recently used commands in the current shell session.
+33. man: Display the manual page for a command or other topic related to the shell session.
+34. which: Display the full pathname of a command or other executable program in the current shell session's PATH environment variable.
+35. alias: Create an alias for a command in the current shell session's environment variables list.
+36. unalias: Remove an alias from the current shell session's environment variables list.
+37. test: Evaluate an expression and return an exit status code based on its result (0 for true, 1 for false).
+38. time: Measure the amount of time it takes to execute a command or set of commands in the current shell session.
+39. sleep: Delay execution of subsequent commands for a specified amount of time in seconds or milliseconds (if supported).
+40. clear: Clear the terminal screen of all text and reset the cursor position to the top left corner of the screen (if supported).
+41. echo $PATH: Display the contents of the PATH environment variable in the current shell session, which contains a list of directories where executable programs can be found by name without specifying their full pathname each time they are used in a command line argument (e.g., ls instead of /bin/ls).
+42. export PATH=$PATH:/new/directory/path: Append a new directory path to the PATH environment variable in the current shell session, so that executable programs can be found by name in that directory as well as all other directories already listed in PATH (e.g., ls instead of /new/directory/path/ls).
+43. find . -name "*.txt": Search for all files with a .txt extension in the current working directory and its subdirectories, and display their full pathnames on standard output (e.g., ./subdir1/file1.txt).
+44. tar -cvf archive_name dir_name/*: Create an archive named archive_name containing all files and subdirectories within dir_name, and store it in the current working directory (e.g., tar -cvf my_archive dir_name/*).
+45. gunzip archive_name: Uncompress an archive named archive_name using gzip compression, and store its contents in the current working directory (e.g., gunzip my_archive).
+46. chmod 755 filename: Change the permissions of filename to allow read, write, and execute access for its owner, read and execute access for its group, and read access for all other users (e.g., chmod 755 my_file).
+47. chown username filename: Change the owner of filename to username (e.g., chown john my_file). 
+48. ln -s source_file target_file: Create a symbolic link between source_file and target_file, so that target_file points to source_file (e.g., ln -s /home/john/my_file /tmp/my_file). 
+49. rmdir dir_name: Remove an empty directory named dir_name from the current working directory (e.g., rmdir my_dir). 
+50. chroot new_root_dir command args... : Execute command with its arguments in new_root_dir as if it were its root directory (e.g., chroot /mnt/new_root ls -l).

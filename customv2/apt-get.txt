@@ -1,0 +1,100 @@
+
+
+1. apt-get update: Update the list of available packages and their versions, but do not install or upgrade any packages.
+
+2. apt-get install <package>: Install the given package.
+
+3. apt-get remove <package>: Remove the given package.
+
+4. apt-get upgrade <package>: Upgrade the given package to the latest version.
+
+5. apt-get autoremove: Remove packages that were automatically installed to satisfy dependencies for other packages and are no longer needed.
+
+6. apt-get clean: Clean up the local repository of retrieved package files.
+
+7. apt-get source <package>: Download the source code of the given package.
+
+8. apt-get build-dep <package>: Install/compile all build dependencies for the given package.
+
+9. apt-get check: Verify that there are no broken dependencies.
+
+10. apt-get download <package>: Download the given package without installing it.
+
+11. apt-get update --dry-run: Simulate an update without actually downloading or installing anything.
+
+12. apt-get -d dist-upgrade: Download all packages required for a distribution upgrade, but do not install them.
+
+13. apt-get -f install: Attempt to fix broken dependencies by installing missing packages.
+
+14. apt-get --reinstall install <package>: Reinstall the given package, even if it is already installed.
+
+15. apt-get moo: Display an ASCII cow with a message.
+
+16. apt-get --print-uris install <package>: Print out the URIs of the packages that would be downloaded and installed for the given package.
+
+17. apt-get --ignore-missing install <package>: Install the given package, even if some of its dependencies are missing.
+
+18. apt-get --allow-unauthenticated install <package>: Install the given package, even if it is not authenticated with a GPG key.
+
+19. apt-get --show-upgraded: Show a list of all packages that are to be upgraded.
+
+20. apt-get --simulate dist-upgrade: Simulate a distribution upgrade without actually performing it.
+
+21. apt-get --only-upgrade install <package>: Only upgrade the given package, do not install any new packages or remove any existing ones.
+
+22. apt-get --no-download install <package>: Install the given package without downloading it first (useful for offline systems).
+
+23. apt-get --no-install-recommends install <package>: Install the given package without installing any recommended packages as dependencies.
+
+24. apt-get --no-upgrade install <package>: Install the given package without upgrading any existing packages.
+
+25. apt-get --no-remove install <package>: Install the given package without removing any existing packages that may conflict with it.
+
+26. apt-get --ignore-hold install <package>: Install the given package even if it is on hold (i.e., marked as not to be upgraded).
+
+27. apt-get --force-yes install <package>: Force installation of the given package, even if it may not be safe to do so (use with caution).
+
+28. apt-get --only-source install <package>: Only download the source code of the given package, do not build or install it.
+
+29. apt-get --allow-downgrades install <package>: Install the given package even if it requires downgrading some existing packages (use with caution).
+
+30. apt-get --no-download --reinstall install <package>: Reinstall the given package without downloading it first (useful for offline systems). 
+
+31. apt-get -o dir::cache=/my/custom/folder update: Update the list of available packages and their versions, but do not install or upgrade any packages, and store them in a custom folder instead of the default one (/var/cache/apt/archives). 
+
+32. apt-get -o dir::state=/my/custom/folder upgrade: Upgrade all installed packages to their latest versions, but store them in a custom folder instead of the default one (/var/lib/dpkg). 
+
+33. apt-get -o debug::pkgproblemresolver=yes dist-upgrade: Upgrade all installed packages to their latest versions, and display detailed information about any problems encountered during dependency resolution (useful for debugging). 
+
+34. apt-get -o Acquire::http::Proxy="http://myproxy:8080" update: Update the list of available packages and their versions, but do not install or upgrade any packages, and use a proxy server to access remote repositories (replace “myproxy” with your proxy server’s address). 
+
+35. apt-get -o Acquire::https::Proxy="https://myproxy:8080" update: Update the list of available packages and their versions, but do not install or upgrade any packages, and use a secure proxy server to access remote repositories (replace “myproxy” with your proxy server’s address). 
+
+36. apt-get -o Dir::Etc::sourcelist="/my/custom/folder/sources.list" update: Update the list of available packages and their versions, but do not install or upgrade any packages, and use a custom sources list file instead of the default one (/etc/apt/sources.list). 
+
+37. apt-get -o Dir::Etc::sourceparts="/my/custom/folder" update: Update the list of available packages and their versions, but do not install or upgrade any packages, and use a custom folder instead of the default one (/etc/apt/sources.list.d) for storing additional sources list files (e.g., for third party repositories). 
+
+38. apt-get -o Dir::Cache::archives="/my/custom/folder" update: Update the list of available packages and their versions, but do not install or upgrade any packages, and store them in a custom folder instead of the default one (/var/cache/apt/archives). 
+
+39. apt-get -o Dir::State::status="/my/custom/folder" upgrade: Upgrade all installed packages to their latest versions, but store them in a custom folder instead of the default one (/var/lib/dpkg). 
+
+40. apt-get -o Dir::Log="/my/custom/folder" update: Update the list of available packages and their versions, but do not install or upgrade any packages, and store log files in a custom folder instead of the default one (/var/log/apt). 
+
+41. apt-get -o Debug::pkgProblemResolver=yes dist-upgrade: Upgrade all installed packages to their latest versions, and display detailed information about any problems encountered during dependency resolution (useful for debugging). 
+
+42. apt-get -o Debug::NoLocking=true update: Update the list of available packages and their versions, but do not install or upgrade any packages, and disable file locking (useful for debugging). 
+
+43. apt-get -o Acquire::http::Timeout="10" update: Update the list of available packages and their versions, but do not install or upgrade any packages, and set a timeout of 10 seconds when connecting to remote repositories (replace “10” with your desired timeout value). 
+
+44. apt-get -o Acquire::https::Timeout="10" update: Update the list of available packages and their versions, but do not install or upgrade any packages, and set a timeout of 10 seconds when connecting to secure remote repositories (replace “10” with your desired timeout value). 
+
+45. apt-get -o Acquire::Retries="3" update: Update the list of available packages and their versions, but do not install or upgrade any packages, and retry failed downloads up to 3 times (replace “3” with your desired number of retries). 
+46. apt-get -o Acquire::http::No-Cache=true update: Update the list of available packages and their versions, but do not install or upgrade any packages, and disable caching when downloading from remote repositories (useful for debugging). 
+
+47. apt-get -o Acquire::https::No-Cache=true update: Update the list of available packages and their versions, but do not install or upgrade any packages, and disable caching when downloading from secure remote repositories (useful for debugging). 
+
+48. apt-get -o Dir::Etc::sourceparts="/my/custom/folder" update: Update the list of available packages and their versions, but do not install or upgrade any packages, and use a custom folder instead of the default one (/etc/apt/sources.list) for storing additional sources list files (e.g., for third party repositories). 
+
+49. apt-get -o Dir::State::lists="/my/custom/folder" update: Update the list of available packages and their versions, but do not install or upgrade any packages, and store lists of installed files in a custom folder instead of the default one (/var/lib/apt/lists). 
+
+50. apt-get -o Dir::State::extended_states="/my/custom/folder" update: Update the list of available packages and their versions, but do not install or upgrade any packages, and store extended states information in a custom folder instead of the default one (/var/lib/

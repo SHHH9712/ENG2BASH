@@ -1,9 +1,10 @@
-ls
-cd
-cat
-mv
-rm
-mkdir
+commands
+-ls
+-cd
+-cat
+-mv
+-rm
+-mkdir
 rmdir
 echo
 SSH

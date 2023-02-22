@@ -1,0 +1,52 @@
+
+
+1. mkdir: Create a new directory in the current working directory.
+2. cd: Change the current working directory.
+3. mv: Move a file or directory from one location to another.
+4. cp: Copy a file or directory from one location to another.
+5. rm: Remove a file or directory from the current working directory.
+6. touch: Create an empty file in the current working directory.
+7. grep: Search for a pattern in a file or files.
+8. find: Search for files in a directory hierarchy.
+9. chmod: Change the permissions of a file or directory.
+10. chown: Change the owner of a file or directory.
+11. tar: Create an archive of files and directories.
+12. gzip: Compress a file or directory using gzip compression.
+13. gunzip: Uncompress a gzip compressed file or directory.
+14. cat: Concatenate files and print them to standard output.
+15. head: Print the first few lines of a file to standard output.
+16. tail: Print the last few lines of a file to standard output.
+17. sort: Sort lines of text files alphabetically or numerically.
+18. uniq: Remove duplicate lines from a sorted file.
+19. diff: Compare two files line by line and report any differences.
+20. ln: Create a symbolic link to a file or directory.
+21. rmdir: Remove an empty directory from the current working directory.
+22. echo: Print a line of text to standard output.
+23. pwd: Print the current working directory to standard output.
+24. ls: List the contents of the current working directory.
+25. du: Estimate file space usage in the current working directory.
+26. df: Estimate disk space usage in the current filesystem.
+27. chgrp: Change the group ownership of a file or directory.
+28. chroot: Change the root directory of the current process.
+29. tee: Redirect standard output to multiple files simultaneously.
+30. xargs: Execute a command with arguments from standard input.
+31. stat: Display information about a file or directory.
+32. lsof: List open files and their associated processes.
+33. ps: List running processes and their associated information.
+34. kill: Terminate a running process by its process ID (PID).
+35. ssh: Connect to a remote host using the SSH protocol.
+36. scp: Copy files between two hosts using the SSH protocol.
+37. rsync: Synchronize files between two hosts over SSH or rsh protocols.
+38. wget: Download files from the web using HTTP, HTTPS, and FTP protocols.
+39. curl: Transfer data from or to a server using various protocols including HTTP, HTTPS, FTP, and SFTP.
+40. nc: Connect to or listen for connections on TCP and UDP ports using the netcat utility (nc).
+41. traceroute: Trace the route packets take from one host to another over an IP network using ICMP messages and UDP datagrams.
+42. ping: Test the reachability of a host on an IP network using ICMP messages and UDP datagrams.
+43. ifconfig: Configure network interfaces on a host machine using the ifconfig utility (ifconfig).
+44. route: Display and modify the IP routing table on a host machine using the route utility (route).
+45. netstat: Display network connections, routing tables, interface statistics, masquerade connections, and multicast memberships using the netstat utility (netstat).
+46. dig: Query DNS name servers for information about host addresses, mail exchanges, name servers, and related information using the dig utility (dig).
+47. nslookup: Query DNS name servers for information about host addresses, mail exchanges, name servers, and related information using the nslookup utility (nslookup).
+48. hostname: Display or set the system's hostname using the hostname utility (hostname).
+49. whois: Query whois databases for information about domain names, IP addresses, and autonomous system numbers using the whois utility (whois). 
+50. nmap: Scan networks for hosts and services using the nmap utility (nmap).

@@ -1,0 +1,21 @@
+
+
+1. pwd - Print the working directory. Description: This command will print the current directory you are in.
+
+2. pwd - Print the directory /home/user/Documents. Description: This command will print the directory located at /home/user/Documents.
+
+3. pwd - Print the directory /var/www/html. Description: This command will print the directory located at /var/www/html.
+
+4. pwd - Print the directory /usr/local/bin. Description: This command will print the directory located at /usr/local/bin.
+
+5. pwd - Print the directory /etc/apache2. Description: This command will print the directory located at /etc/apache2.
+
+6. pwd - Print the directory /opt/mysql. Description: This command will print the directory located at /opt/mysql.
+
+7. pwd - Print the directory /usr/share/fonts. Description: This command will print the directory located at /usr/share/fonts.
+
+8. pwd - Print the directory /usr/lib/python2.7. Description: This command will print the directory located at /usr/lib/python2.7.
+
+9. pwd - Print the directory /usr/local/lib. Description: This command will print the directory located at /usr/local/lib.
+
+10. pwd - Print the directory /var/logs. Description: This command will print the directory located at /var/logs.
