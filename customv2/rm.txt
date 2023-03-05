@@ -1,46 +1,46 @@
-1. rm /home/user/Documents/file.txt - Removes the file.txt from the Documents folder in the user's home directory.
-2. rm -r /home/user/Pictures - Removes the Pictures folder and all its contents from the user's home directory.
-3. rm -f /home/user/Downloads/*.pdf - Removes all PDF files from the Downloads folder in the user's home directory.
-4. rm -rf /home/user/Music/* - Removes all files and folders from the Music folder in the user's home directory.
-5. rm -i /home/user/Videos/*.mp4 - Prompts the user to confirm before removing all MP4 files from the Videos folder in the user's home directory.
-6. rm -v /home/user/Documents/*.docx - Verbosely removes all DOCX files from the Documents folder in the user's home directory.
-7. rm -rf /home/user/Pictures/*.jpg - Removes all JPG files from the Pictures folder in the user's home directory, including any subdirectories.
-8. rm -f /home/user/Downloads/*.exe - Forcefully removes all EXE files from the Downloads folder in the user's home directory.
-9. rm -r /home/user/Music/ - Recursively removes the Music folder and all its contents from the user's home directory.
-10. rm -i /home/user/Videos/*.avi - Prompts the user to confirm before removing all AVI files from the Videos folder in the user's home directory.
-11. rm -v /home/user/Documents/*.doc - Verbosely removes all DOC files from the Documents folder in the user's home directory.
-12. rm -rf /home/user/Pictures/*.png - Removes all PNG files from the Pictures folder in the user's home directory, including any subdirectories.
-13. rm -f /home/user/Downloads/*.zip - Forcefully removes all ZIP files from the Downloads folder in the user's home directory.
-14. rm -r /home/user/Music/*.mp3 - Recursively removes all MP3 files from the Music folder in the user's home directory.
-15. rm -i /home/user/Videos/*.mov - Prompts the user to confirm before removing all MOV files from the Videos folder in the user's home directory.
-16. rm -v /home/user/Documents/*.xlsx - Verbosely removes all XLSX files from the Documents folder in the user's home directory.
-17. rm -rf /home/user/Pictures/*.gif - Removes all GIF files from the Pictures folder in the user's home directory, including any subdirectories.
-18. rm -f /home/user/Downloads/*.iso - Forcefully removes all ISO files from the Downloads folder in the user's home directory.
-19. rm -r /home/user/Music/*.wav - Recursively removes all WAV files from the Music folder in the user's home directory.
-20. rm -i /home/user/Videos/*.mkv - Prompts the user to confirm before removing all MKV files from the Videos folder in the user's home directory.
-21. rm -v /home/user/Documents/*.pptx - Verbosely removes all PPTX files from the Documents folder in the user's home directory.
-22. rm -rf /home/user/Pictures/*.bmp - Removes all BMP files from the Pictures folder in the user's home directory, including any subdirectories.
-23. rm -f /home/user/Downloads/*.rar - Forcefully removes all RAR files from the Downloads folder in the user's home directory.
-24. rm -r /home/user/Music/*.ogg - Recursively removes all OGG files from the Music folder in the user's home directory.
-25. rm -i /home/user/Videos/*.flv - Prompts the user to confirm before removing all FLV files from the Videos folder in the user's home directory.
-26. rm -v /home/user/Documents/*.odt - Verbosely removes all ODT files from the Documents folder in the user's home directory.
-27. rm -rf /home/user/Pictures/*.tiff - Removes all TIFF files from the Pictures folder in the user's home directory, including any subdirectories.
-28. rm -f /home/user/Downloads/*.tar - Forcefully removes all TAR files from the Downloads folder in the user's home directory.
-29. rm -r /home/user/Music/*.aac - Recursively removes all AAC files from the Music folder in the user's home directory.
-30. rm -i /home/user/Videos/*.wmv - Prompts the user to confirm before removing all WMV files from the Videos folder in the user's home directory.
-31. rm -v /home/user/Documents/*.rtf - Verbosely removes all RTF files from the Documents folder in the user's home directory.
-32. rm -rf /home/user/Pictures/*.jpeg - Removes all JPEG files from the Pictures folder in the user's home directory, including any subdirectories.
-33. rm -f /home/user/Downloads/*.7z - Forcefully removes all 7Z files from the Downloads folder in the user's home directory.
-34. rm -r /home/user/Music/*.m4a - Recursively removes all M4A files from the Music folder in the user's home directory.
-35. rm -i /home/user/Videos/*.webm - Prompts the user to confirm before removing all WEBM files from the Videos folder in the user's home directory.
-36. rm -v /home/user/Documents/*.txt - Verbosely removes all TXT files from the Documents folder in the user's home directory.
-37. rm -rf /home/user/Pictures/*.svg - Removes all SVG files from the Pictures folder in the user's home directory, including any subdirectories.
-38. rm -f /home/user/Downloads/*.dmg - Forcefully removes all DMG files from the Downloads folder in the user's home directory.
-39. rm -r /home/user/Music/*.flac - Recursively removes all FLAC files from the Music folder in the user's home directory.
-40. rm -i /home/user/Videos/*.mpg - Prompts the user to confirm before removing all MPG files from the Videos folder in the user's home directory.
-41. rm -v /home/user/Documents/*.html - Verbosely removes all HTML files from the Documents folder in the user's home directory.
-42. rm -rf /home/user/Pictures/*.png - Removes all PNG files from the Pictures folder in the user's home directory, including any subdirectories.
-43. rm -f /home/user/Downloads/*.deb - Forcefully removes all DEB files from the Downloads folder in the user's home directory.
-44. rm -r /home/user/Music/*.midi - Recursively removes all MIDI files from the Music folder in the user's home directory.
-45. rm -i /home/user/Videos/*.3gp - Prompts the user to confirm before removing all 3GP files from the Videos folder in the user's home directory.
-46. rm -v /home/user/Documents/*.csv - Verbosely removes all CSV files from the Documents
+1. rm /home/user/Documents/file.txt -> Removes the file.txt from the Documents folder in the user's home directory.
+2. rm -r /home/user/Pictures -> Removes the Pictures folder and all its contents from the user's home directory.
+3. rm -f /home/user/Downloads/*.pdf -> Removes all PDF files from the Downloads folder in the user's home directory.
+4. rm -rf /home/user/Music/* -> Removes all files and folders from the Music folder in the user's home directory.
+5. rm -i /home/user/Videos/*.mp4 -> Prompts the user to confirm before removing all MP4 files from the Videos folder in the user's home directory.
+6. rm -v /home/user/Documents/*.docx -> Verbosely removes all DOCX files from the Documents folder in the user's home directory.
+7. rm -rf /home/user/Pictures/*.jpg -> Removes all JPG files from the Pictures folder in the user's home directory, including any subdirectories.
+8. rm -f /home/user/Downloads/*.exe -> Forcefully removes all EXE files from the Downloads folder in the user's home directory.
+9. rm -r /home/user/Music/ -> Recursively removes the Music folder and all its contents from the user's home directory.
+10. rm -i /home/user/Videos/*.avi -> Prompts the user to confirm before removing all AVI files from the Videos folder in the user's home directory.
+11. rm -v /home/user/Documents/*.doc -> Verbosely removes all DOC files from the Documents folder in the user's home directory.
+12. rm -rf /home/user/Pictures/*.png -> Removes all PNG files from the Pictures folder in the user's home directory, including any subdirectories.
+13. rm -f /home/user/Downloads/*.zip -> Forcefully removes all ZIP files from the Downloads folder in the user's home directory.
+14. rm -r /home/user/Music/*.mp3 -> Recursively removes all MP3 files from the Music folder in the user's home directory.
+15. rm -i /home/user/Videos/*.mov -> Prompts the user to confirm before removing all MOV files from the Videos folder in the user's home directory.
+16. rm -v /home/user/Documents/*.xlsx -> Verbosely removes all XLSX files from the Documents folder in the user's home directory.
+17. rm -rf /home/user/Pictures/*.gif -> Removes all GIF files from the Pictures folder in the user's home directory, including any subdirectories.
+18. rm -f /home/user/Downloads/*.iso -> Forcefully removes all ISO files from the Downloads folder in the user's home directory.
+19. rm -r /home/user/Music/*.wav -> Recursively removes all WAV files from the Music folder in the user's home directory.
+20. rm -i /home/user/Videos/*.mkv -> Prompts the user to confirm before removing all MKV files from the Videos folder in the user's home directory.
+21. rm -v /home/user/Documents/*.pptx -> Verbosely removes all PPTX files from the Documents folder in the user's home directory.
+22. rm -rf /home/user/Pictures/*.bmp -> Removes all BMP files from the Pictures folder in the user's home directory, including any subdirectories.
+23. rm -f /home/user/Downloads/*.rar -> Forcefully removes all RAR files from the Downloads folder in the user's home directory.
+24. rm -r /home/user/Music/*.ogg -> Recursively removes all OGG files from the Music folder in the user's home directory.
+25. rm -i /home/user/Videos/*.flv -> Prompts the user to confirm before removing all FLV files from the Videos folder in the user's home directory.
+26. rm -v /home/user/Documents/*.odt -> Verbosely removes all ODT files from the Documents folder in the user's home directory.
+27. rm -rf /home/user/Pictures/*.tiff -> Removes all TIFF files from the Pictures folder in the user's home directory, including any subdirectories.
+28. rm -f /home/user/Downloads/*.tar -> Forcefully removes all TAR files from the Downloads folder in the user's home directory.
+29. rm -r /home/user/Music/*.aac -> Recursively removes all AAC files from the Music folder in the user's home directory.
+30. rm -i /home/user/Videos/*.wmv -> Prompts the user to confirm before removing all WMV files from the Videos folder in the user's home directory.
+31. rm -v /home/user/Documents/*.rtf -> Verbosely removes all RTF files from the Documents folder in the user's home directory.
+32. rm -rf /home/user/Pictures/*.jpeg -> Removes all JPEG files from the Pictures folder in the user's home directory, including any subdirectories.
+33. rm -f /home/user/Downloads/*.7z -> Forcefully removes all 7Z files from the Downloads folder in the user's home directory.
+34. rm -r /home/user/Music/*.m4a -> Recursively removes all M4A files from the Music folder in the user's home directory.
+35. rm -i /home/user/Videos/*.webm -> Prompts the user to confirm before removing all WEBM files from the Videos folder in the user's home directory.
+36. rm -v /home/user/Documents/*.txt -> Verbosely removes all TXT files from the Documents folder in the user's home directory.
+37. rm -rf /home/user/Pictures/*.svg -> Removes all SVG files from the Pictures folder in the user's home directory, including any subdirectories.
+38. rm -f /home/user/Downloads/*.dmg -> Forcefully removes all DMG files from the Downloads folder in the user's home directory.
+39. rm -r /home/user/Music/*.flac -> Recursively removes all FLAC files from the Music folder in the user's home directory.
+40. rm -i /home/user/Videos/*.mpg -> Prompts the user to confirm before removing all MPG files from the Videos folder in the user's home directory.
+41. rm -v /home/user/Documents/*.html -> Verbosely removes all HTML files from the Documents folder in the user's home directory.
+42. rm -rf /home/user/Pictures/*.png -> Removes all PNG files from the Pictures folder in the user's home directory, including any subdirectories.
+43. rm -f /home/user/Downloads/*.deb -> Forcefully removes all DEB files from the Downloads folder in the user's home directory.
+44. rm -r /home/user/Music/*.midi -> Recursively removes all MIDI files from the Music folder in the user's home directory.
+45. rm -i /home/user/Videos/*.3gp -> Prompts the user to confirm before removing all 3GP files from the Videos folder in the user's home directory.
+46. rm -v /home/user/Documents/*.csv -> Verbosely removes all CSV files from the Documents

@@ -1,101 +1,29 @@
-
-
-1. Ping /home/user/Documents/ - This command will send an ICMP echo request to the Documents folder in the user's home directory.
-
-2. Ping /etc/ - This command will send an ICMP echo request to the etc folder in the root directory.
-
-3. Ping /usr/local/bin/ - This command will send an ICMP echo request to the bin folder in the local usr directory.
-
-4. Ping /var/log/ - This command will send an ICMP echo request to the log folder in the var directory.
-
-5. Ping /opt/ - This command will send an ICMP echo request to the opt folder in the root directory.
-
-6. Ping /usr/share/ - This command will send an ICMP echo request to the share folder in the usr directory.
-
-7. Ping /lib/ - This command will send an ICMP echo request to the lib folder in the root directory.
-
-8. Ping /boot/ - This command will send an ICMP echo request to the boot folder in the root directory.
-
-9. Ping /sbin/ - This command will send an ICMP echo request to the sbin folder in the root directory.
-
-10. Ping /usr/local/lib/ - This command will send an ICMP echo request to the lib folder in the local usr directory.
-
-11. Ping /usr/local/sbin/ - This command will send an ICMP echo request to the sbin folder in the local usr directory.
-
-12. Ping /usr/local/etc/ - This command will send an ICMP echo request to the etc folder in the local usr directory.
-
-13. Ping /usr/local/share/ - This command will send an ICMP echo request to the share folder in the local usr directory.
-
-14. Ping /usr/local/games/ - This command will send an ICMP echo request to the games folder in the local usr directory.
-
-15. Ping /usr/local/src/ - This command will send an ICMP echo request to the src folder in the local usr directory.
-
-16. Ping /usr/local/include/ - This command will send an ICMP echo request to the include folder in the local usr directory.
-
-17. Ping /usr/local/man/ - This command will send an ICMP echo request to the man folder in the local usr directory.
-
-18. Ping /usr/local/bin/scripts/ - This command will send an ICMP echo request to the scripts folder in the bin folder of the local usr directory.
-
-19. Ping /usr/local/bin/programs/ - This command will send an ICMP echo request to the programs folder in the bin folder of the local usr directory.
-
-20. Ping /usr/local/bin/tools/ - This command will send an ICMP echo request to the tools folder in the bin folder of the local usr directory.
-
-21. Ping /usr/local/bin/configs/ - This command will send an ICMP echo request to the configs folder in the bin folder of the local usr directory.
-
-22. Ping /usr/local/bin/datafiles/ - This command will send an ICMP echo request to the datafiles folder in the bin folder of the local usr directory.
-
-23. Ping /usr/local/bin/utilities/ - This command will send an ICMP echo request to the utilities folder in the bin folder of the local usr directory.
-
-24. Ping /usr/local/bin/plugins/ - This command will send an ICMP echo request to the plugins folder in the bin folder of the local usr directory.
-
-25. Ping /usr/local/bin/libraries/ - This command will send an ICMP echo request to the libraries folder in the bin folder of the local usr directory.
-
-26. Ping /usr/local/bin/drivers/ - This command will send an ICMP echo request to the drivers folder in the bin folder of the local usr directory.
-
-27. Ping /usr/local/bin/applications/ - This command will send an ICMP echo request to the applications folder in the bin folder of the local usr directory.
-
-28. Ping /usr/local/bin/templates/ - This command will send an ICMP echo request to the templates folder in the bin folder of the local usr directory.
-
-29. Ping /usr/local/bin/scripts_old_versions/ - This command will send an ICMP echo request to the scripts_old_versions folder in the bin folder of the local usr directory. 
-
-30. Ping /usr/local/bin/programs_old_versions/ - This command will send an ICMP echo request to the programs_old_versions folder in the bin folder of the local usr directory. 
-
-31. Ping /usr/local/bin/tools_old_versions/ - This command will send an ICMP echo request to the tools_old_versions folder in the bin folder of the local usr directory. 
-
-32. Ping /usr/local/bin/configs_old_versions/ - This command will send an ICMP echo request to the configs_old_versions folder in the bin folder of the local usr directory. 
-
-33. Ping /usr/local/bin/datafiles_old_versions/ - This command will send an ICMP echo request to the datafiles_old_versions folder in the bin folder of the local usr directory. 
-
-34. Ping /usr/local/bin/utilities_old_versions// - This command will send an ICMP echo request to the utilities_old_versions folder in the bin folder of the local usr directory. 
-
-35. Ping /usr/local/bin/plugins_old_versions// - This command will send an ICMP echo request to the plugins_old_versions folder in the bin folder of the local usr directory. 
-
-36. Ping /usr/local/bin/libraries_old_versions// - This command will send an ICMP echo request to the libraries_old_versions folder in the bin folder of the local usr directory. 
-
-37. Ping /usr/local/bin/drivers_old_versions// - This command will send an ICMP echo request to the drivers_old_versions folder in the bin folder of the local usr directory. 
-
-38. Ping /usr/local/bin/applications_old_versions// - This command will send an ICMP echo request to the applications_old_versions folder in the bin folder of the local usr directory. 
-
-39. Ping /usr/local//bin//templates_old_versions// - This command will send an ICMP echo request to the templates_old_versions folder in the bin folder of the local usr directory. 
-
-40. Ping /home//user//Downloads// - This command will send an ICMP echo request to Downloads folder in user's home directory  . 
-
-41. Ping /home//user//Pictures// - This command will send an ICMP echo request to Pictures folder in user's home directory  . 
-
-42. Ping /home//user//Videos// - This command will send an ICMP echo request to Videos folder in user's home directory  . 
-
-43. Ping /home//user//Music// - This command will send an ICMP echo request to Music folder in user's home directory  . 
-
-44. Ping /home//user//Documents//archive// - This command will send an ICMP echo request to archive subfolder inside Documents folder in user's home directory  . 
-
-45. Ping /home//user//Documents//reports// - This command will send an ICMP echo request to reports subfolder inside Documents folder in user's home directory  . 
-
-46. Ping /home//user//Documents//presentations// - This command will send an ICMP echo request to presentations subfolder inside Documents folder in user's home directory  . 
-
-47. Ping /home//user//Documents//templates// - This command will send an ICMP echo request to templates subfolder inside Documents folder in user's home directory  . 
-
-48. Ping /home//user//Documents//images// - This command will send an ICMP echo request to images subfolder inside Documents folder in user's home directory  . 
-
-49. Ping /home//user//Documents//datafiles// - This command will send an ICMP echo request to datafiles subfolder inside Documents folder in user's home directory  . 
-
-50. Ping /home//user//Documents//scripts// - This command will send an ICMP echo request to scripts subfolder inside Documents folder in user's home directory  .
+1. ping www.google.com -> Ping the website www.google.com
+2. ping -c 3 www.yahoo.com -> Ping the website www.yahoo.com three times
+3. ping -s 1000 www.amazon.com -> Ping the website www.amazon.com with a packet size of 1000 bytes
+4. ping -w 10 www.facebook.com -> Ping the website www.facebook.com for 10 seconds
+5. ping -n www.reddit.com -> Ping the website www.reddit.com continuously until stopped
+6. ping -R www.netflix.com -> Ping the website www.netflix.com and record route information
+7. ping -f www.twitter.com -> Flood ping the website www.twitter.com with as many packets as possible
+8. ping -l 500 www.ebay.com -> Ping the website www.ebay.com with a packet size of 500 bytes
+9. ping -i 2 www.twitch.tv -> Ping the website www.twitch.tv every 2 seconds
+10.ping -q www.microsoft.com -> Quietly ping the website www.microsoft.com and only display summary information
+11.ping -v www.apple.com -> Verbose ping the website www.apple.com and display detailed information
+12.ping -t 5 www.spotify.com -> Ping the website www.spotify.com and set the Time To Live (TTL) to 5
+13.ping -A www.paypal.com -> Audible ping the website www.paypal.com when a packet is received
+14.ping -B www.youtube.com -> Broadcast ping the website www.youtube.com to all hosts on the local network
+15.ping -D www.github.com -> Debug ping the website www.github.com and display debugging information
+16.ping -E www.linkedin.com -> Extend ping the website www.linkedin.com and send large packets
+17.ping -F www.dropbox.com -> Fragment ping the website www.dropbox.com and send fragmented packets
+18.ping -G www.pinterest.com -> Generate ping the website www.pinterest.com and generate an ICMP echo request message
+19.ping -H www.stackoverflow.com -> Use the ICMP Host Unreachable message when pinging the website www.stackoverflow.com
+20.ping -I eth0 www.outlook.com -> Use the network interface eth0 when pinging the website www.outlook.com
+21.ping -J 192.168.1.1 www.gmail.com -> Loose source route ping the website www.gmail.com through the host at 192.168.1.1
+22.ping -K www.yahoo.co.jp -> Keep alive ping the website www.yahoo.co.jp and continue pinging until manually stopped
+23.ping -L www.yelp.com -> Use the ICMP Time Exceeded message when pinging the website www.yelp.com
+24.ping -M do www.bing.com -> Use the "Do Not Fragment" flag when pinging the website www.bing.com
+25.ping -N www.medium.com -> Use the "No Fragmentation" flag when pinging the website www.medium.com
+26.ping -O www.quora.com -> Use the "Record Route" option when pinging the website www.quora.com
+27.ping -P www.instagram.com -> Use the "Timestamp" option when pinging the website www.instagram.com
+28.ping -Q 10 www.tumblr.com -> Set the Type of Service (TOS) to 10 when pinging the website www.tumblr.com
+29.ping -S 192.168.1.2 www.wikipedia.org -> Use the source IP address 192.168.1.2 when pinging the website www.wikipedia.org

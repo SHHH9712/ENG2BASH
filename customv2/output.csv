@@ -1,3 +1,83 @@
+"Update the list of available packages and their versions, but do not install or upgrade any packages."
+Install the given package.
+Remove the given package.
+Upgrade the given package to the latest version.
+Remove packages that were automatically installed to satisfy dependencies for other packages and are no longer needed.
+Clean up the local repository of retrieved package files.
+Download the source code of the given package.
+Install/compile all build dependencies for the given package.
+Verify that there are no broken dependencies.
+Download the given package without installing it.
+Simulate an update without actually downloading or installing anything.
+"Download all packages required for a distribution upgrade, but do not install them."
+Attempt to fix broken dependencies by installing missing packages.
+"Reinstall the given package, even if it is already installed."
+Display an ASCII cow with a message.
+Print out the URIs of the packages that would be downloaded and installed for the given package.
+"Install the given package, even if some of its dependencies are missing."
+"Install the given package, even if it is not authenticated with a GPG key."
+Show a list of all packages that are to be upgraded.
+Simulate a distribution upgrade without actually performing it.
+"Only upgrade the given package, do not install any new packages or remove any existing ones."
+Install the given package without downloading it first (useful for offline systems).
+Install the given package without installing any recommended packages as dependencies.
+Install the given package without upgrading any existing packages.
+Install the given package without removing any existing packages that may conflict with it.
+"Install the given package even if it is on hold (i.e., marked as not to be upgraded)."
+"Force installation of the given package, even if it may not be safe to do so (use with caution)."
+"Only download the source code of the given package, do not build or install it."
+Install the given package even if it requires downgrading some existing packages (use with caution).
+Reinstall the given package without downloading it first (useful for offline systems).
+Display the contents of the /etc/passwd file.
+Display the contents of the file.txt located in the user's home directory.
+Display the contents of the syslog file located in the /var/log directory.
+Display the contents of all files located in the /usr/local/bin directory.
+Display the contents of the hosts file located in the /etc directory.
+Display the contents of the services file located in the /etc directory.
+Display the contents of the resolv.conf file located in the /etc directory.
+Display the contents of the fstab file located in the /etc directory.
+Display the contents of the cpuinfo file located in the /proc directory.
+Display the contents of the meminfo file located in the /proc directory.
+Display the contents of the version file located in the /proc directory.
+Display the contents of the modules file located in the /proc directory.
+Display the contents of the interrupts file located in the /proc directory.
+Display the contents of the devices file located in the /proc directory.
+Display the contents of the filesystems file located in the /proc directory.
+Display the contents of all files located in the /usr/share/doc directory.
+Display the contents of all files located in the /usr/share/man directory.
+Display the contents of all files located in the /usr/lib directory.
+Display the contents of all files located in the /usr/local/lib directory.
+Display the contents of all files located in the /usr/include directory.
+Display the contents of all files located in the /usr/local/include directory.
+Display the contents of all files located in the /var/log directory.
+Display the contents of all files located in the /var/spool directory.
+Display the contents of all files located in the /var/lib directory.
+Display the contents of all files located in the /var/lock directory.
+Display the contents of your bashrc file located in your home directory.
+Display the contents of your profile file located in your home directory.
+Display your bash history stored in your home directory.
+Display the contents of all files located in your Documents folder in your home directory.
+Display the contents of all files located in your Downloads folder in your home directory.
+Display the contents of all files located in your Pictures folder in your home directory.
+Display the contents of all files located in your Music folder in your home directory.
+Display the contents of all files located in your Videos folder in your home directory.
+Display the contents of all files located on your Desktop in your home directory.
+Display the contents of all files located in your Public folder in your home directory.
+Display the contents of all files located in your Templates folder in your home directory.
+Display the contents of all files located in your Library folder in your home directory.
+Display the contents of all files located in your Applications folder in your home directory.
+Display the contents of all files located in your Movies folder in your home directory.
+Display the contents of all files located in your Music folder in your home directory.
+Display the contents of all files located in your Pictures folder in your home directory.
+Display the contents of all files located in your Documents folder in your home directory.
+Display the contents of all files located in your Downloads folder in your home directory.
+Display the contents of all files located on your Desktop in your home directory.
+Display the contents of all files located in your Public folder in your home directory.
+Display the contents of all files located in your Templates folder in your home directory.
+Display the contents of all files located in your Library folder in your home directory.
+Display the contents of all files located in your Applications folder in your home directory.
+Display the contents of all files located in your Movies folder in your home directory
+Display the contents of all files located in your Music folder in your home directory
 Change the current working directory to the user's home directory.
 Move up one directory level.
 Change the current working directory to the Documents folder.
@@ -65,6 +145,296 @@ Change the current working directory to the local lib cache directory.
 Change the current working directory to the local include cache directory.
 Change the current working directory to the local src cache directory.
 Change the current working directory to the local share cache directory.
+"This command sets the permissions of the Documents folder to read, write, and execute for the owner, read and execute for the group, and read and execute for others."
+"This command sets the permissions of the Pictures folder to read and write for the owner, and read only for the group and others."
+"This command sets the permissions of the Videos folder to read, write, and execute for the owner, read, write, and execute for the group, and read only for others."
+"This command sets the permissions of the Music folder to read and write only for the owner, and no access for the group and others."
+"This command sets the permissions of the Downloads folder to read and write for the owner, and read and write for the group and others."
+"This command sets the permissions of the Books folder to read, write, and execute for the owner, and execute only for the group and others."
+"This command sets the permissions of the Projects folder to read and write for the owner, and write only for the group and others."
+"This command sets the permissions of the Applications folder to read, write, and execute for the owner, read only for the group, and no access for others."
+"This command sets the permissions of the Templates folder to read and write for the owner, read only for the group, and write only for others."
+"This command sets the permissions of the Documents folder to read, write, and execute only for the owner, and no access for the group and others."
+Clears the terminal screen.
+Clears the contents of the Documents folder.
+Clears the contents of the Downloads folder.
+Clears the contents of the Desktop folder.
+Clears the contents of the Pictures folder.
+Clears the contents of the Music folder.
+Clears the contents of the Videos folder.
+Clears the contents of the Public folder.
+Clears the contents of the Templates folder.
+Clears the contents of the Projects folder in Documents.
+Clears the contents of the Books folder in Downloads.
+Clears the contents of the Images folder in Desktop.
+Clears the contents of the Wallpapers folder in Pictures.
+Clears the contents of the Songs folder in Music.
+Clears the contents of the Movies folder in Videos.
+Clears the contents of the Shared folder in Public.
+Clears the contents of the Forms folder in Templates.
+Clears the contents of the Reports folder in Projects in Documents.
+Clears the contents of the Textbooks folder in Books in Downloads.
+Clears the contents of the Screenshots folder in Images in Desktop.
+Clears the contents of the Nature folder in Wallpapers in Pictures.
+Clears the contents of the Classical folder in Songs in Music.
+Clears the contents of the Action folder in Movies in Videos.
+Clears the contents of the Documents folder in Shared in Public.
+Clears the contents of the Letters folder in Forms in Templates.
+Clears the contents of the Monthly folder in Reports in Projects in Documents.
+Clears the contents of the Science folder in Textbooks in Books in Downloads.
+Clears the contents of the Games folder in Screenshots in Images in Desktop.
+Clears the contents of the Mountains folder in Nature in Wallpapers in Pictures.
+Clears the contents of the Operas folder in Classical in Songs in Music.
+Clears the contents of the Thrillers folder in Action in Movies in Videos.
+Clears the contents of the Contracts folder in Documents in Shared in Public.
+Clears the contents of the Resignation folder in Letters in Forms in Templates.
+Clears the contents of the Financial folder in Monthly in Reports in Projects in Documents.
+Clears the contents of the Biology folder in Science in Textbooks in Books in Downloads.
+Clears the contents of the Strategy folder in Games in Screenshots in Images in Desktop.
+Clears the contents of the Snowy folder in Mountains in Nature in Wallpapers in Pictures.
+Clears the contents of the Verdi folder in Operas in Classical in Songs in Music.
+Clears the contents of the Mystery folder in Thrillers in Action in Movies in Videos.
+Clears the contents of the Employment folder in Contracts in Documents in Shared in Public.
+Clears the contents of the Formal folder in Resignation Letters Forms Templates
+Clears the contents of Budgeting folder Financial Monthly Reports Projects Documents
+Clears the contents of Genetics folder Biology Science Textbooks Books Downloads
+Clears the contents of Chess folder Strategy Games Screenshots Images Desktop
+Clears the contents of Alps folder Snowy Mountains Nature Wallpapers Pictures
+Clears the contents of Rigoletto folder Verdi Operas Classical Songs Music
+Clears the contents of Detective folder Mystery Thrillers Action Movies Videos
+Clears the contents of Non-Disclosure folder Employment Contracts Documents Shared Public
+Clears Business Folder Formal Resignation Letters Forms Templates
+Clears Expenses Folder Budgeting Financial Monthly Reports Projects Documents
+Copies file1.txt from the home directory to the Documents directory.
+Copies all .jpg files from the Pictures directory to the Documents directory.
+Copies all .docx files from the Documents directory to the Desktop directory.
+Copies all files from the Downloads directory to the Documents directory.
+Copies all files from the Pictures directory to the Desktop directory.
+Copies all .png files from the Pictures directory to the Documents directory.
+Copies all .gif files from the Pictures directory to the Desktop directory.
+Copies all .pdf files from the Documents directory to the Desktop directory.
+Copies all .zip files from the Downloads directory to the Documents directory.
+Copies all files from the home directory of user1 to the home directory of user2.
+Copies all .txt files from the home directory of user1 to the home directory of user2.
+Copies all .docx files from the home directory of user1 to the home directory of user2.
+Copies all .pdf files from the home directory of user1 to the home directory of user2.
+Copies all .xlsx files from the home directory of user1 to the home directory of user2.
+Copies all .pptx files from the home directory of user1 to the home directory of user2.
+Copies all .odt files from the home directory of user1 to the home directory of user2.
+Copies all .ods files from the home directory of user1 to the home directory of user2.
+Copies all .odp files from the home directory of user1 to the home directory of user2.
+Copies all .jpg files from the home directory of user1 to the home directory of user2.
+Copies all .png files from the home directory of user1 to the home directory of user2.
+Copies all .gif files from the home directory of user1 to the home directory of user2.
+Copies all .zip files from the home directory of user1 to the home directory of user2.
+Copies all files with any extension from the home directory of user1 to the home directory of user2.
+Recursively copies all files and directories from the home directory of user1 to the home directory of user2.
+"Interactively copies all files with any extension from the home directory of user1 to the home directory of user2, prompting for confirmation before overwriting existing files in destination folder."
+"Preserves mode, ownership and timestamps when copying all files with any extension from the home directory of user1 to the home directory of user2"
+"Combines multiple options when copying all files with any extension from the current working directory to the home directory of user2, creating a numbered backup in a specified backup folder, excluding certain file types, including certain file types, excluding certain files based on a list, preserving sparse files, removing existing destination files, creating hard links instead of copying, copying contents of special devices, not overwriting existing destination files, stripping trailing slashes, preserving parent directories, verbosely displaying progress, archiving source files and not creating a target folder in destination path"
+"Combines multiple options when copying all files with any extension from the current working directory to the home directory of user2, creating a numbered backup with a specified suffix, excluding certain file types, including certain file types, excluding certain files based on a list, preserving sparse files, removing existing destination files, creating hard links instead of copying, copying contents of special devices and not overwriting existing destination files"
+"Combines multiple options when copying all files with any extension from the current working directory to the home directory of user2, verbosely displaying progress, recursively copying directories and their contents, preserving mode, ownership and timestamps, preserving parent directories, preserving sparse files, excluding certain file types, including certain file types, excluding certain files based on a list, updating existing destination files, creating hard links instead of copying, copying contents of special devices, not overwriting existing destination files, creating numbered backups with a specified suffix and archiving source files"
+"Combines multiple options when copying all files with any extension from the current working directory to Documents folder in user's home folder, verbosely displaying progress, recursively copying directories and their contents, preserving mode, ownership and timestamps, preserving parent directories, preserving sparse files, excluding certain file types, including certain file types, excluding certain files based on a list, updating existing destination files, creating hard links instead of copying, copying contents of special devices, not overwriting existing destination files, creating numbered backups with a specified suffix and archiving source files"
+"Combines multiple options when copying all files and folders in Pictures folder in user's home folder to Documents folder in user's home folder, verbosely displaying progress, recursively copying directories and their contents, preserving mode, ownership and timestamps, preserving parent directories, preserving sparse files, excluding certain file types, including certain file types, excluding certain files based on a list, updating existing destination files, creating hard links instead of copying, copying contents of special devices, not overwriting existing destination files, creating numbered backups with a specified suffix and archiving source files"
+Lists the contents of the directory 'dir1' in long format.
+Changes the current working directory to 'dir2'.
+Creates a new directory called 'dir3'.
+Removes the directory 'dir4' and its contents.
+Moves the directory 'dir5' to 'dir6'.
+Copies the directory 'dir7' to 'dir8'.
+Changes the permissions of the directory 'dir9' to 755.
+Changes the owner of the directory 'dir10' to 'user1'.
+Finds all files with the extension '.txt' in the directory 'dir11'.
+Displays the size of the directory 'dir12' in human readable format.
+Displays a tree structure of the directory 'dir13'.
+Searches for the string 'string' in all files in the directory 'dir14'.
+Creates a tar archive of the directory 'dir15'.
+Creates a zip archive of the directory 'dir16'.
+Changes the group of the directory 'dir17' to 'group1'.
+Creates an empty file called 'file1' in the directory 'dir18'.
+Recursively removes all files and directories in the directory 'dir19'.
+Displays the contents of all files in the directory 'dir20'.
+"Compares the contents of two directories, 'dir21' and 'dir22'."
+Displays the first 5 lines of all files in the directory 'dir23'.
+Displays the last 5 lines of all files in the directory 'dir24'.
+Sorts all files in the directory 'dir25'.
+Removes duplicate lines from all files in the directory 'dir26'.
+Counts the number of lines in all files in the directory 'dir27'.
+Searches for lines that do not contain the string 'string' in all files in the directory 'dir28'.
+Replaces all occurrences of 'old' with 'new' in all files in the directory 'dir29'.
+Prints all lines that match the pattern in all files in the directory 'dir30'.
+Moves all files to the directory 'dir31'.
+Recursively removes all files and directories in the directory 'dir32'.
+Moves all files with the extension '.txt' to the directory 'dir33'.
+Copies all files with the extension '.jpg' to the directory 'dir34'.
+Changes permissions of all files with the extension '.pdf' to 644.
+Changes owner of all directories named 'dir35' to user2.
+Changes group of all directories named 'dir36' to group2.
+Replaces all occurrences of 'old' with 'new' in all files with the extension '.sh' in current working directory and its subdirectories.
+Prints all lines that match the pattern in all files with the extension '.py' in current working directory and its subdirectories.
+Displays first 5 lines of all files with the extension '.html' in current working directory and its subdirectories.
+Displays last 5 lines of all files with the extension '.css' in current working directory and its subdirectories.
+Sorts all files with the extension '.js' in current working directory and its subdirectories.
+Removes duplicate lines from all files with the extension '.php' in current working directory and its subdirectories.
+Counts number of lines in all files with the extension '.xml' in current working directory and its subdirectories.
+Searches for lines that do not contain string in all files with the extension '.json' in current working directory and its subdirectories.
+Creates a tar archive of the directory 'dir37'.
+Creates a zip archive of the directory 'dir38'.
+Displays size of each file and subdirectory within the directory 'dir39'.
+Displays a tree structure of the directory 'dir40' using ASCII characters only.
+Creates a new file called 'file2' in the directory 'dir41'.
+Recursively removes all files and directories in the directory 'dir42'.
+"Compares contents of two directories, 'dir43' and 'dir44', and displays only differences between them."
+"Displays first 5 lines of all files in the directory 'dir45', along with their names and sizes."
+"This command will print the string ""Hello World"" to the terminal."
+This command will print the current PATH environment variable to the terminal.
+This command will print all files with the .txt extension in the current directory.
+This command will print all files in the Documents folder of the user's home directory.
+This command will print the user's home directory path to the terminal.
+This command will print the contents of the /etc/hosts file to the terminal.
+This command will print all files in the /usr/bin directory to the terminal.
+This command will print all files in the /var/log directory to the terminal.
+This command will print all files in the /opt/programs directory to the terminal.
+This command will print all files in the /usr/local/bin directory to the terminal.
+This command will print all files in the /usr/share/man directory to the terminal.
+This command will print all files in the /etc/init.d directory to the terminal.
+This command will print all files in the /usr/lib directory to the terminal.
+This command will print all files in the /usr/sbin directory to the terminal.
+This command will print the contents of the /etc/profile file to the terminal.
+This command will print the contents of the /etc/passwd file to the terminal.
+This command will print all files in the /var/spool directory to the terminal.
+This command will print all files in the /var/lib directory to the terminal.
+This command will print all files in the /var/cache directory to the terminal.
+This command will print all files in the /var/logs directory to the terminal.
+This command will print all files in the /usr/local/lib directory to the terminal.
+This command will print all files in the /usr/local/share directory to the terminal.
+This command will print all files in the /usr/local/etc directory to the terminal.
+This command will print all files in the /usr/local/bin directory to the terminal.
+This command will print all files in the /opt directory to the terminal.
+This command will print all files with a cron prefix in the /etc directory to the terminal.
+This command will print all files in the Documents folder of the user's home directory to the terminal.
+This command will print all files in the Downloads folder of the user's home directory to the terminal.
+This command will print all files in the Pictures folder of the user's home directory to the terminal.
+This command will print all files in the Music folder of the user's home directory to the terminal.
+This command will print all files in the Videos folder of the user's home directory to the terminal.
+This command will print all files in the Desktop folder of the user's home directory to the terminal.
+This command will print all files in the Public folder of the user's home directory to the terminal.
+This command will print all files in the Templates folder of the user's home directory to the terminal.
+This command will recursively print all files and folders within Documents folder of user's home directory to the terminal.
+This command will recursively print all files and folders within Downloads folder of user's home directory to the terminal.
+This command will recursively print all files and folders within Pictures folder of user's home directory to the terminal.
+This command will recursively print all files and folders within Music folder of user's home directory to the terminal.
+This command will recursively print all files and folders within Videos folder of user's home directory to the terminal.
+This command will recursively print all files and folders within Desktop folder of user's home directory to the terminal.
+This command will recursively print all files and folders within Public folder of user's home directory to the terminal.
+This command will recursively print all files and folders within Templates folder of user's home directory to the terminal.
+This command will recursively print all files and folders within usr directory of root filesystem to the terminal.
+This command will recursively print all files and folders within opt directory of root filesystem to the terminal.
+This command will recursively print all files and folders within var directory of root filesystem to the terminal.
+This command will recursively print all files and folders within etc directory of root filesystem to the terminal.
+This command will recursively print all files and folders within root filesystem to the terminal.
+This command will recursively print all files and folders within user's home directory to the terminal.
+This command will recursively print all hidden files and folders within user's home directory to the terminal.
+This command will recursively print all hidden files and folders within subdirectories of user's home directory to the terminal
+Change the current working directory to the Documents folder in the user's home directory.
+Create a new folder called Pictures in the user's home directory.
+Move the file.txt from the Documents folder to the Pictures folder.
+Copy the file.txt from the Pictures folder to the Documents folder.
+Remove the file.txt from the Pictures folder.
+Create a new empty file called newfile.txt in the Documents folder.
+"Change the permissions of the Pictures folder to 755 (read, write, and execute for owner, read and execute for group and others)."
+"Search for the string ""text"" in all files in the Documents folder."
+Search for all files with a .txt extension in the user's home directory and its subdirectories.
+Create a tar archive of the Documents folder and save it as backup.tar in the user's home directory.
+Display memory usage information
+Display memory usage information in human-readable format
+Display memory usage information in kilobytes
+Display memory usage information in megabytes
+Display memory usage information in gigabytes
+Display total memory usage information
+Display memory usage information every 10 seconds
+Display memory usage information 5 times
+Display wide output of memory usage information
+Display detailed low-level memory usage information
+Display memory usage information in old format
+Display the version number of the free command
+Display total memory usage information in human-readable format
+Display memory usage information every 10 seconds in human-readable format
+Display total memory usage information in megabytes
+Display total memory usage information in gigabytes
+Display total memory usage information in wide output format
+Display detailed low-level memory usage information in human-readable format
+Display total memory usage information in old format
+Display memory usage information using SI units
+Display memory usage information in megabytes using SI units
+Display memory usage information in gigabytes using SI units
+Display total memory usage information in kilobytes
+Display total memory usage information in megabytes
+Display total memory usage information in gigabytes
+"Display memory usage information every 5 seconds, 3 times"
+Display memory usage information in wide output and old format
+Display total memory usage information in human-readable format using SI units
+Display total memory usage information in megabytes using SI units
+Display total memory usage information in gigabytes using SI units
+Display detailed low-level total memory usage information in human-readable format
+Display total memory usage information in human-readable format using old format
+"Display memory usage information every 30 seconds, 5 times in human-readable format"
+"Display memory usage information every 5 seconds, 3 times in megabytes"
+"Display memory usage information every 10 seconds, 2 times in gigabytes"
+Display detailed low-level total memory usage information in wide output format
+Display total memory usage information in human-readable format using old format
+"Display memory usage information every 10 seconds, 3 times in wide output format"
+Display detailed low-level total memory usage information
+Terminates the process associated with the file.txt in the Documents folder of the user's home directory.
+Sends a SIGTERM signal to the syslog process in the var/log directory.
+Sends a SIGINT signal to the program in the usr/bin directory.
+Sends a SIGSTOP signal to the apache2 process in the etc/init.d directory.
+Sends a SIGHUP signal to the myapp process in the opt/applications directory.
+Sends a SIGSEGV signal to the script in the usr/local/bin directory.
+Terminates the process associated with the file.txt in the Downloads folder of the user's home directory.
+Sends a SIGPIPE signal to the daemon process in the var/run directory.
+Sends a SIGTRAP signal to the program in the usr/sbin directory.
+Sends a SIGSTOP signal to the mysql process in the etc/init.d directory.
+Sends a SIGBUS signal to the myapp process in the opt/applications directory.
+Terminates the process associated with the script in the usr/local/bin directory.
+Sends a SIGTERM signal to the file.txt in the Documents folder of the user's home directory.
+Sends a SIGINT signal to the syslog process in the var/log directory.
+Sends a SIGSTOP signal to the program in the usr/bin directory.
+Sends a SIGHUP signal to the apache2 process in the etc/init.d directory.
+Sends a SIGSEGV signal to the myapp process in the opt/applications directory.
+Terminates the process associated with the script in the usr/local/bin directory.
+Sends a SIGPIPE signal to the file.txt in the Downloads folder of the user's home directory.
+Sends a SIGTRAP signal to the program in the usr/sbin directory.
+Sends a SIGSTOP signal to the mysql process in the etc/init.d directory.
+Sends a SIGBUS signal to the myapp process in the opt/applications directory.
+Terminates the process associated with the script in the usr/local/bin directory.
+Sends a SIGTERM signal to the file in the .configs folder of the user's home directory.
+Sends a SIGINT signal to the daemon process in the var/cache directory.
+Sends a SIGSTOP signal to the program in the usr/libexec directory.
+Sends a SIGHUP signal to the nginx process in the etc/init.d directory.
+Sends a SIGSEGV signal to the myapp process in the opt/applications directory.
+Terminates the process associated with the script in the usr/local/bin directory.
+Sends a SIGPIPE signal to the file in the .configs folder of the user's home directory.
+Sends a SIGTRAP signal to the program in the usr/sbin directory.
+Sends a SIGSTOP signal to the mysql process in the etc/init.d directory.
+Sends a SIGBUS signal to the myapp process in the opt/applications directory.
+Terminates the process associated with .bashrc in the usr/local/bin directory.
+Sends a SIGTERM signal to .profile in the .configs folder of home directory
+Sends a SIGINT signal to .daemonrc in var/.cache directory
+Sends a SIGSTOP signal to .programrc in usr/.libexec directory
+Sends a SIGHUP signal to .apache2rc in etc/.initd directory
+Sends a SIGSEGV signal to .myapprc in opt/.applications directory
+Terminates the process associated with .scriptrc in usr/.local/.bin directory
+Sends a SIGPIPE signal to .filerc in home/.user/.Downloads folder
+Sends a SIGTRAP signal to .programrc in usr/.sbin directory
+Sends a SIGSTOP signal to .mysqlrc in etc/.initd directory
+Sends a SIGBUS signal to .myapprc in opt/.applications directory
+Terminates the process associated with .scriptrc in usr/.local/.bin directory
+Sends a SIGTERM signal to .filerc in home/.user/.Documents folder
+Sends a SIGINT signal to .syslogrc in var/.log directory
+Sends a SIGSTOP signal to .programrc in usr/.bin directory
+Sends a SIGHUP signal to .apache2rc in etc/.initd directory
+Sends a SIGSEGV signal to .myapprc in opt/.applications directory
 List the contents of the user's home directory in long format
 "List all files, including hidden ones, in the etc directory"
 Recursively list all files and subdirectories in the usr/bin directory
@@ -150,6 +520,52 @@ Creates a new folder called 'Documents' inside the existing folder 'Shared' whic
 "Creates a new folder called 'Documents' inside the existing folder 'Shared' which is inside the existing folder 'Documents' and sets the permissions to u+rwx,g+rwx,o+rx and displays a verbose output"
 Creates a new folder called 'Projects' inside the existing folder 'Archive' which is inside the existing folder 'Documents' and sets the permissions to 755
 Creates a new folder called 'Projects' inside the existing folder 'Archive' which is inside the existing folder 'Documents' and sets the permissions to 644
+Create a temporary directory in the /tmp folder with a random name.
+Create a temporary directory in the ~/Documents folder with a random name.
+Create a temporary directory in the /var/tmp folder with a random name.
+Create a temporary directory in the /usr/local folder with a random name.
+Create a temporary directory in the /opt folder with a random name.
+Create a temporary directory in the /home/user folder with a random name.
+Create a temporary directory in the /mnt folder with a random name.
+Create a temporary directory in the /media folder with a random name.
+Create a temporary directory in the /srv folder with a random name.
+Create a temporary directory in the /root folder with a random name.
+Create a temporary directory in the /etc folder with a random name.
+Create a temporary directory in the /bin folder with a random name.
+Create a temporary directory in the /sbin folder with a random name.
+Create a temporary directory in the /lib folder with a random name.
+Create a temporary directory in the /usr/lib folder with a random name.
+Create a temporary directory in the /usr/local/lib folder with a random name.
+Create a temporary directory in the /usr/share folder with a random name.
+Create a temporary directory in the /var/lib folder with a random name.
+Create a temporary directory in the /var/log folder with a random name.
+Create a temporary directory in the /var/run folder with a random name.
+Create a temporary directory in the /var/spool folder with a random name.
+Create a temporary directory in the ~/.config folder with a random name.
+Create a temporary directory in the ~/.cache folder with a random name.
+Create a temporary directory in the ~/.local/share folder with a random name.
+Create a temporary directory in the ~/.local/lib folder with a random name.
+Create a temporary directory in the ~/Desktop folder with a random name.
+Create a temporary directory in the ~/Downloads folder with a random name.
+Create a temporary directory in the ~/Music folder with a random name.
+Create a temporary directory in the ~/Pictures folder with a random name.
+Create a temporary directory in the ~/Videos folder with a random name.
+Create a temporary directory in the ~/Public folder with a random name.
+Create a temporary directory in the ~/Documents/MyProjects folder with a random name.
+Create a temporary directory in the ~/Documents/MyWork folder with a random name.
+Create a temporary directory in the ~/Documents/MyFiles folder with a random name.
+Create a temporary directory in the ~/Documents/MyData folder with a random name.
+Create a temporary directory in the ~/Documents/MyImages folder with a random name.
+Create a temporary directory in the ~/Documents/MyScripts folder with a random name.
+Create a temporary directory in the ~/Documents/MyPrograms folder with a random name.
+Create a temporary directory in the ~/Documents/MyTemplates folder with a random name.
+Create a temporary directory in the ~/Documents/MyDocuments folder with a random name.
+Create a temporary directory in the ~/Documents/MyDownloads folder with a random name.
+Create a temporary directory in the ~/Documents/MyMusic folder with a random name.
+Create a temporary directory in the ~/Documents/MyVideos folder with a random name.
+Create a temporary directory in the ~/Documents/MyPictures folder with a random name.
+Create a temporary directory in the ~/Documents/MyArchives folder with a random name.
+Create a temporary directory in the ~/Documents/MyBackups folder with a random name.
 Moves the file.txt from the Documents folder to the Desktop folder.
 Moves the image.jpg from the Pictures folder to the Downloads folder.
 Moves the video.mp4 from the Videos folder to the Music folder.
@@ -200,6 +616,67 @@ Moves the photo5.png from the Pictures folder to the Downloads folder.
 Moves the movie5.avi from the Videos folder to the Music folder.
 Moves the letter5.txt from the Documents folder to the Pictures folder.
 Moves the software5.msi from the Downloads folder to the Videos folder.
+Ping the website www.google.com
+Ping the website www.yahoo.com three times
+Ping the website www.amazon.com with a packet size of 1000 bytes
+Ping the website www.facebook.com for 10 seconds
+Ping the website www.reddit.com continuously until stopped
+Ping the website www.netflix.com and record route information
+Flood ping the website www.twitter.com with as many packets as possible
+Ping the website www.ebay.com with a packet size of 500 bytes
+Ping the website www.twitch.tv every 2 seconds
+Quietly ping the website www.microsoft.com and only display summary information
+Verbose ping the website www.apple.com and display detailed information
+Ping the website www.spotify.com and set the Time To Live (TTL) to 5
+Audible ping the website www.paypal.com when a packet is received
+Broadcast ping the website www.youtube.com to all hosts on the local network
+Debug ping the website www.github.com and display debugging information
+Extend ping the website www.linkedin.com and send large packets
+Fragment ping the website www.dropbox.com and send fragmented packets
+Generate ping the website www.pinterest.com and generate an ICMP echo request message
+Use the ICMP Host Unreachable message when pinging the website www.stackoverflow.com
+Use the network interface eth0 when pinging the website www.outlook.com
+Loose source route ping the website www.gmail.com through the host at 192.168.1.1
+Keep alive ping the website www.yahoo.co.jp and continue pinging until manually stopped
+Use the ICMP Time Exceeded message when pinging the website www.yelp.com
+"Use the ""Do Not Fragment"" flag when pinging the website www.bing.com"
+"Use the ""No Fragmentation"" flag when pinging the website www.medium.com"
+"Use the ""Record Route"" option when pinging the website www.quora.com"
+"Use the ""Timestamp"" option when pinging the website www.instagram.com"
+Set the Type of Service (TOS) to 10 when pinging the website www.tumblr.com
+Use the source IP address 192.168.1.2 when pinging the website www.wikipedia.org
+Uploads a local file to a remote directory
+Uploads a local directory recursively to a remote directory
+"Uploads a local file to a remote directory, preserving the file permissions"
+"Uploads a local file to a remote directory, using compression"
+"Uploads a local file to a remote directory, preserving the modification time"
+"Uploads a local file to a remote directory, using a different block size"
+"Uploads a local file to a remote directory, suppressing progress messages"
+"Uploads a local file to a remote directory, only if the file is newer than the remote file"
+"Uploads a local file to a remote directory, showing verbose output"
+"Uploads a local file to a remote directory, using compression"
+Displays the version information for the put command
+Displays the help information for the put command
+"Uploads a local file to a remote directory, excluding files that match the pattern"
+"Uploads a local file to a remote directory, using the ssh protocol for transport"
+"Uploads a local file to a remote directory, setting the timeout value to 30 seconds"
+Appends the contents of a local file to a remote file
+Asks for confirmation before overwriting an existing remote file
+"Uploads a local file to a remote directory, only if the size of the file has changed"
+"Uploads a local file to a remote directory, using port 22 for transport"
+"Uploads a local file to a remote directory, without preserving file permissions"
+"Uploads a local file to a remote directory, without preserving file modification time"
+"Uploads a local file to a remote directory, without using compression"
+"Uploads a local file to a remote directory, without synchronizing file timestamps"
+"Uploads a local file to a remote directory, overwriting any existing remote file"
+Deletes the remote file if the local file has been deleted
+"Uploads a local file to a remote directory, ignoring SSL certificate errors"
+Creates the remote directory if it does not exist
+Print the current working directory.
+Print the logical current working directory (default behavior).
+"Print the physical current working directory, with symbolic links resolved."
+Display the help message for the pwd command.
+Display the version information for the pwd command.
 Removes the file.txt from the Documents folder in the user's home directory.
 Removes the Pictures folder and all its contents from the user's home directory.
 Removes all PDF files from the Downloads folder in the user's home directory.
@@ -246,3 +723,124 @@ Forcefully removes all DEB files from the Downloads folder in the user's home di
 Recursively removes all MIDI files from the Music folder in the user's home directory.
 Prompts the user to confirm before removing all 3GP files from the Videos folder in the user's home directory.
 Verbosely removes all CSV files from the Documents
+This command will remove the Documents folder from the user's home directory.
+This command will remove the Pictures folder from the user's home directory.
+This command will remove the Videos folder from the user's home directory.
+This command will remove the Music folder from the user's home directory.
+This command will remove the Downloads folder from the user's home directory.
+This command will remove the Desktop folder from the user's home directory.
+This command will remove the Projects folder from the Documents folder in the user's home directory.
+This command will remove the Family folder from the Pictures folder in the user's home directory.
+This command will remove the Movies folder from the Videos folder in the user's home directory.
+This command will remove the Classical folder from the Music folder in the user's home directory.
+This command will remove the Software folder from the Downloads folder in the user's home directory.
+This command will remove the Work folder from the Desktop folder in the user's home directory.
+This command will remove the School folder from the Documents folder in the user's home directory.
+This command will remove the Vacation folder from the Pictures folder in the user's home directory.
+This command will remove the TVShows folder from the Videos folder in the user's home directory.
+This command will remove the Rock folder from the Music folder in the user's home directory.
+This command will remove the Games folder from the Downloads folder in the user's home directory.
+This command will remove the Personal folder from the Desktop folder in the user's home directory.
+This command will remove the Work folder from the Documents folder in the user's home directory.
+This command will remove the Events folder from the Pictures folder in the user's home directory.
+Connects to the hostname as the user.
+Connects to the hostname as the user using the specified key.
+Connects to the hostname as the user on the specified port.
+Connects to the hostname as the user and forwards traffic from the local port to the remote host on the remote port.
+Connects to the hostname as the user and forwards traffic from the remote port to the local host on the local port.
+Connects to the hostname as the user and creates a SOCKS proxy on the local port.
+Connects to the hostname as the user and enables X11 forwarding.
+Connects to the hostname as the user and runs the specified command.
+Connects to the hostname as the user and runs in the background.
+Copies a file from the local machine to the remote machine.
+Copies a file from the remote machine to the local machine.
+Copies a folder from the local machine to the remote machine.
+Copies a folder from the remote machine to the local machine.
+Copies a file from the local machine to the remote machine on a specific port.
+Copies a file from the remote machine to the local machine on a specific port.
+Connects to an SFTP server on the hostname as the user.
+Connects to an SFTP server on the hostname as the user on a specific port.
+Copies a file from the remote machine to the local machine using SFTP.
+Copies a file from the local machine to the remote machine using SFTP.
+Copies multiple files from the remote machine to the local machine using SFTP.
+Copies multiple files from the local machine to the remote machine using SFTP.
+Synchronizes a folder from the local machine to the remote machine using rsync.
+Synchronizes a folder from the remote machine to the local machine using rsync.
+Synchronizes a folder from the local machine to the remote machine using rsync and deletes any files that have been deleted locally.
+Synchronizes a folder from the remote machine to the local machine using rsync and deletes any files that have been deleted remotely.
+Displays information about the file or directory at the given path.
+Displays the permissions of the file or directory at the given path.
+Displays the size of the file or directory at the given path.
+Displays the last modification time of the file or directory at the given path.
+Displays the owner of the file or directory at the given path.
+Displays the group of the file or directory at the given path.
+Displays the name of the file or directory at the given path.
+Displays the inode number of the file or directory at the given path.
+Displays the number of hard links to the file or directory at the given path.
+Displays the last access time of the file or directory at the given path.
+Displays the last status change time of the file or directory at the given path.
+"Displays the type of file system object (file, directory, etc.) at the given path."
+Displays the size of a block on the file system containing the file or directory at the given path.
+Displays the device number of the file system containing the file or directory at the given path.
+Displays the major device type in hexadecimal of the file system containing the file or directory at the given path.
+Displays the minor device type in hexadecimal of the file system containing the file or directory at the given path.
+Displays a human-readable version of the permissions of the file or directory at the given path.
+Displays a human-readable version of the last modification time of the file or directory at the given path.
+Displays a human-readable version of the size of the file or directory at the given path.
+Displays a human-readable version of the owner of the file or directory at the given path.
+Displays a human-readable version of the group of the file or directory at the given path.
+Displays a human-readable version of the name of the file or directory at the given path.
+Displays a human-readable version of the inode number of the file or directory at the given path.
+Displays a human-readable version of the number of hard links to the file or directory at the given path.
+Displays a human-readable version of the last access time of the file or directory at the given path.
+Displays a human-readable version of the last status change time of the file or directory at the given path.
+"Displays a human-readable version of type of file system object (file, directory, etc.) at the given path."
+Displays a human-readable version of size of a block on the file system containing the file or directory at the given path.
+Displays a human-readable version of device number of the file system containing the file or directory at the given path.
+Displays a human-readable version of major device type in hexadecimal of the file system containing the file or directory at the given path.
+Displays a human-readable version of minor device type in hexadecimal of the file system containing the file or directory at the given path.
+Displays a numeric version of permissions of the file or directory at the given path.
+Displays a numeric version of last modification time of the file or directory at the given path.
+Displays a numeric version of size of a block on the file system containing 	the file or directory at the given path.
+Displays a numeric version of owner of 	the file or directory at 	the given path.
+Displays a numeric version of group 	of 	the file or directory 	at 	the given path.
+Displays a numeric version of name 	of 	the file or directory 	at 	the given path.
+Displays a numeric version of inode number 	of 	the file or directory 	at 	the given path.
+Displays a numeric version of number 	of hard links to 	the file or directory 	at 	the given path.
+Displays a numeric version of last access time 	of 	the file or directory 	at 	the given path.
+Displays a numeric version of last status change time 	of 	the file or directory 	at 	the given path.
+"Displays a numeric version type 	of 	file system object (file, directory, etc.) 	at 	the given path."
+Displays a numeric version size 	of a block on 	the file system containing 	the file or directory 	at 	the given path.
+Displays a numeric version device number 	of 	the file system containing 	the file or directory 	at 	the given path.
+Displays a numeric version major device type in hexadecimal 	of 	the file system containing 	the file or directory 	at 	the given path.
+Displays a numeric version minor device type in hexadecimal 	of 	the file system containing 	the file or directory 	at 	the given path.
+This command displays the full path of the current working directory.
+This command displays the contents of the Documents folder in the home directory of the user.
+This command displays the contents of the /usr/bin directory.
+This command displays all the files and directories in the /etc/apache2 directory.
+This command displays the size of the /var/log directory.
+This command displays the last modified date of the files in the /usr/local/bin directory.
+This command displays all the files in the Downloads folder in the home directory of the user.
+This command recursively displays all the files and directories in the /usr/share directory.
+This command displays the total size of the /opt directory.
+"This command displays all the files and directories in the /usr/lib directory, sorted by user ownership."
+Create a new file called example.txt in the Documents folder of the user's home directory.
+Create a new file called hosts in the etc folder of the root directory.
+Create a new file called script.sh in the bin folder of the local usr directory.
+Create a new file called syslog in the log folder of the var directory.
+Create a new file called test.txt in the programs folder of the opt directory.
+Create a new file called image.jpg in the Pictures folder of the user's home directory.
+Create a new file called README in the doc folder of the share usr directory.
+Create a new file called backup in the cron.d folder of the etc directory.
+Create a new file called data.sql in the mysql folder of the lib var directory.
+Create a new file called run.sh in the scripts folder of the programs opt directory.
+This command will display the directory structure of the Documents folder in a tree format.
+This command will display the directory structure of the Pictures folder up to two levels deep in a tree format.
+This command will display the directory structure of the Videos folder with the full path of each file and directory in a tree format.
+This command will display the directory structure of the Music folder with the inode numbers of each file and directory in a tree format.
+This command will display the directory structure of the Downloads folder with the size of each file and directory in a tree format.
+This command will display the directory structure of the Desktop folder with the permissions of each file and directory in a tree format.
+This command will display the directory structure of the Documents folder with the last access time of each file and directory in a tree format.
+This command will display the directory structure of the Pictures folder with color coding for each file and directory in a tree format.
+This command will display the directory structure of the Videos folder with the date of last modification for each file and directory in a tree format.
+This command will display the directory structure of the Music folder with a '/' character appended to each directory name in a tree format.
