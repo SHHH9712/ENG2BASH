@@ -1,10 +1,10 @@
 commands
--ls
--cd
--cat
--mv
--rm
--mkdir
+ls
+cd
+cat
+mv
+rm
+mkdir
 rmdir
 echo
 SSH

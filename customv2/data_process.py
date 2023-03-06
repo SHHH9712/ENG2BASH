@@ -17,8 +17,8 @@ for file_name in os.listdir(dir_path):
                 print(line, m)
                 print(line[m.end(0) - 1 :].split(" -> "))
                 command, description = line[m.end(0) - 1 :].split(" -> ")
-                input.append(command.strip())
-                output.append(description.strip())
+                input.append(description.strip())
+                output.append(command.strip())
 
 
 pd.DataFrame(input).to_csv(
