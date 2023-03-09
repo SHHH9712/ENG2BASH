@@ -1,5 +1,3 @@
-Sure, here are 100 command examples for "clear" with different mock-up file/directory names and their descriptions: 
-
 1. clear -> clears screen
 2. clear file1 -> clears contents of file1
 3. clear folder1 file1 -> clears contents of folder1 and file1

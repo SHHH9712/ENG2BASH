@@ -1,5 +1,3 @@
-Sure, here are 100 real examples of linux command "pwd" with different mock-up file/directory name, and their description in the specified format:
-
 1. pwd -> Print current directory.
 2. pwd -L -> Print symbolic path.
 3. pwd -P -> Print physical path.

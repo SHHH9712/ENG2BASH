@@ -1,5 +1,3 @@
-Sure, here are 100 real examples of Linux commands cd with different mock-up file/directory name and its description:
-
 1. cd /home -> Change directory to /home.
 2. cd .. -> Go up one level.
 3. cd Documents -> Change directory to Documents.

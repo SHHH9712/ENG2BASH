@@ -1,5 +1,3 @@
-Sure, here are 100 real examples of linux commands using "free":
-
 1. free -> Display system memory.
 2. free -m -> Display memory in megabytes.
 3. free -g -> Display memory in gigabytes.

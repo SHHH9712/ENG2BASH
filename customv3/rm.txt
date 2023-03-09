@@ -1,5 +1,3 @@
-Sure, here are 100 examples of using the rm command with different file and directory names:
-
 1. rm file.txt -> remove a file.
 2. rm -r directory -> remove a directory and its contents recursively.
 3. rm -f file.txt -> remove a file forcefully.

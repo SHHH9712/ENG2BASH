@@ -1,5 +1,3 @@
-Sure, here are 100 real examples of Linux kill command with different mock-up file/directory names and their descriptions:
-
 1. kill -9 53245 -> Terminate process 53245
 2. kill -s SIGTERM myapp -> Send SIGTERM signal to the process named myapp
 3. kill -f /tmp/file -> Forcefully kill the process using the file at /tmp/file as input

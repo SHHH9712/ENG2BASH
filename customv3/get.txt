@@ -1,5 +1,3 @@
-Sure, here are 100 examples of Linux commands with the "get" keyword:
-
 1. wget example.com -> Download file from URL.
 2. git clone repo -> Clone repository.
 3. scp file remote: -> Copy file to remote server.

@@ -25,17 +25,17 @@ List files by time modified -> ls -t
 Writes Hello World to a file named foobar.txt. -> "echo ""Hello World"" > foobar.txt"
 Writes Welcome to Linux to a file at the specified directory. -> "echo ""Welcome to Linux"" > /home/user/welcome.txt"
 Appends HELLO to the end of foobar.txt. -> "echo ""HELLO"" >> foobar.txt"
-Writes My name is John to a file named name.txt without a trailing newline. -> "echo -n ""My name is "" && echo ""John"" > name.txt"
 Display environment variables -> env
 Start a clean environment -> env -i /bin/bash
+Writes "Alice" to a file named "name.txt" without a trailing newline. -> echo -n "Alice" > name.txt
 Start a shell with USER variable unset -> env -u USER /bin/sh
 Edit your crontab file with nano as editor -> env EDITOR=nano crontab -e
 Display system memory. -> free
 Display memory in megabytes. -> free -m
 Display memory in gigabytes. -> free -g
 Display total and used memory. -> free -t
-Download file from URL. -> wget example.com
-Clone repository. -> git clone repo
+Download file from google.com. -> wget google.com
+Clone repository my_repo -> git clone my_repo
 Copy file to remote server. -> scp file remote:
 Retrieve data from API. -> curl http://api.com
 Terminate process 59888 -> kill -9 59888
@@ -60,8 +60,8 @@ Rename myfolder as folder2. -> mv myfolder folder2
 Move myfile from myfolder to folder2. -> mv myfolder/myfile folder2
 Ping Google.com 5 times -> ping google.com -c 5
 Ping server.local indefinitely -> ping server.local
-Ping 8.8.8.8 through eth0 interface -> ping 8.8.8.8 -I eth0
-Ping 192.168.0.119 10 times -> ping -n 10 192.168.0.119
+Ping 0.0.0.0 through eth9 interface -> ping 0.0.0.0 -I eth9
+Ping 192.168.0.1 100 times -> ping -n 100 192.168.0.1
 Move myfile to dir1 -> put myfile dir1
 Recursively copy dir1 to dir5 -> put -r dir1 dir5
 Copy myfile to /home/user/dir1 -> put myfile /home/user/dir1
@@ -70,9 +70,9 @@ Print current directory. -> pwd
 Print symbolic path. -> pwd -L
 Print physical path. -> pwd -P
 Print directory path. -> pwd /home/user
-remove a file. -> rm file.txt
-remove a directory and its contents recursively. -> rm -r directory
-remove a file forcefully. -> rm -f file.txt
+remove my_file.txt. -> rm my_file.txt
+remove mydirectory and its contents recursively. -> rm -r mydirectory
+remove myfile.txt forcefully. -> rm -f myfile.txt
 remove a directory and its contents recursively forcefully. -> rm -rf directory
 Remove directory last. -> rmdir last
 Remove directory foobar. -> rmdir foobar/

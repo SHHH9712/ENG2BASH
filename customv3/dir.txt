@@ -1,5 +1,3 @@
-I apologize for the confusion, but "dir" is not a Linux command. Instead, you may want to use "ls" as an alternative. Let me provide you with 100 real examples using "ls":
-
 1. ls -> List files in current directory
 2. ls -a -> List including hidden files
 3. ls -l -> List in long format

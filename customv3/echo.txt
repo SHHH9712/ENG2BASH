@@ -1,9 +1,6 @@
-Sure! Here are 100 examples of the "echo" command with different mock-up file/directory names and their descriptions:
-
 1. echo "Hello World" > greetings.txt -> Writes "Hello World" to a file named "greetings.txt".
 2. echo "Welcome to Linux" > /home/user/welcome.txt -> Writes "Welcome to Linux" to a file at the specified directory.
 3. echo "HELLO" >> greetings.txt -> Appends "HELLO" to the end of "greetings.txt".
-4. echo -n "My name is " && echo "John" > name.txt -> Writes "My name is John" to a file named "name.txt" without a trailing newline.
 5. echo "This is a file" > myfile.txt -> Creates a new file named "myfile.txt" with the content "This is a file".
 6. echo -e "Hello\nWorld" > hello.txt -> Writes "Hello" and "World" on separate lines in a file named "hello.txt".
 7. echo "Welcome Linux" > /tmp/welcome.txt -> Writes "Welcome Linux" to a file at the specified directory.
@@ -30,7 +27,6 @@ Sure! Here are 100 examples of the "echo" command with different mock-up file/di
 28. echo "This is a directory" > mydir/filename -> Creates a new file named "filename" with the content "This is a directory" in a directory named "mydir".
 29. echo "Hello" > /tmp/hello.txt -> Writes "Hello" to a file named "hello.txt" at the specified directory.
 30. echo "This is a sample file" > /home/user/sample.txt -> Creates a new file named "sample.txt" with content "This is a sample file" at the specified directory.
-31. echo -n "Hello " && echo -n "World" > helloworld.txt -> Writes "Hello World" to a file named "helloworld.txt" without a trailing newline.
 32. echo "This is a test..." > testfile.txt -> Creates a new file named "testfile.txt" with the content "This is a test...".
 33. echo -e "Line 1\nLine 2\nLine 3" > myfile.txt -> Writes "Line 1", "Line 2" and "Line 3" to a file named "myfile.txt" on separate lines.
 34. echo "This is a directory" > /home/user/mydir/file.txt -> Writes "This is a directory" to a file named "file.txt" in a directory named "mydir" at the specified directory.
@@ -46,7 +42,6 @@ Sure! Here are 100 examples of the "echo" command with different mock-up file/di
 44. echo "This is a directory" > mydir/newfile -> Creates a new file named "newfile" with the content "This is a directory" in a directory named "mydir".
 45. echo "Hello World" > /user/greetings.txt -> Writes "Hello World" to a file named "greetings.txt" at the specified directory.
 46. echo "This is a sample file" > /tmp/sample.txt -> Creates a new file named "sample.txt" with content "This is a sample file" at the specified directory.
-47. echo -n "Greetings, " && echo -n "Earthling!" > greetings.txt -> Writes "Greetings, Earthling!" to a file named "greetings.txt" without a trailing newline.
 48. echo "This is a test file" > ~/testfile.txt -> Creates a new file named "testfile.txt" with the content "This is a test file" in the user's home directory.
 49. echo -e "Line 1\nLine 2\nLine 3" >> myfile.txt -> Appends "Line 1", "Line 2" and "Line 3" to a file named "myfile.txt" on separate lines.
 50. echo "This is a directory" > /home/user/mydir/filename -> Writes "This is a directory" to a file named "filename" in a directory named "mydir" at the specified directory.

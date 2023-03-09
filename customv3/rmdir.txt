@@ -1,5 +1,3 @@
-Sure, here are 100 examples of the rmdir command with different mock-up file/directory names and their descriptions:
-
 1. rmdir foo -> Remove directory "foo".
 2. rmdir bar/ -> Remove directory "bar".
 3. rmdir -v dir1 -> Remove directory "dir1" verbosely.

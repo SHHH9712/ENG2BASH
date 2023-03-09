@@ -1,5 +1,3 @@
-Sure, here are 100 examples of Linux commands related to "put" with their respective descriptions:
-
 1. put file1 dir1 -> Move file1 to dir1
 2. put -r dir1 dir2 -> Recursively copy dir1 to dir2
 3. put file1 /home/user/dir1 -> Copy file1 to /home/user/dir1

@@ -1,5 +1,3 @@
-Sure! Here are 100 examples of mkdir command with different mock-up file/directory names and their respective descriptions:
-
 1. mkdir mydir -> Create directory named mydir
 2. mkdir dir1/ -> Create directory named dir1 inside current directory
 3. mkdir -p dir1/dir2 -> Create directory dir1 with subdirectory dir2

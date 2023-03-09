@@ -1,103 +1,103 @@
-,input,ground_truth,kevinum/t5-small-finetuned-English-to-BASH,alexsha/t5-small-finetuned-NL2BASH-customv3
-0,print contents in file.txt,cat file.txt,cat file.txt | tr 'n' 'n,cat file.txt
-1,print contents in file.txt with line numbers,cat -n file.txt,nl -s file.txt,cat file.txt | sed -n 's/s/
-2,print contents in file.txt with $ at end,cat -E file.txt,cat file.txt | sed 's/$/s/$,cat file.txt | sed 's/s/$/g
-3,combine files and myfile2,cat file.txt myfile2.txt,mv file myfile2,mv file myfile2
-4,Change directory to /home.,cd /home,cd /home,cd /home
-5,Go up one level.,cd ..,cp,cd ..
-6,Change directory to Documents.,cd Documents,cd Documents,cd Documents
-7,Return to the previous directory.,cd -,cd $(dirname $(dirname $(dirname $0)),rm -r directory
-8,Give everyone full access to file.txt.,chmod 777 file.txt,chmod a+p -r file.txt,chmod 777 file.txt
-9,"Give the owner read and execute permissions, and others read-only permissions to directory/.",chmod 554 directory/,chmod -a ls -p dirname/,chmod 800 directory/
-10,Give the owner read and write permissions to file.pdf.,chmod 600 file.pdf,chmod a+p readlink -f file.pdf,chmod 800 file.pdf
-11,"Give the owner read, write, and execute permissions to file.png.",chmod u+rwx file.png,chmod a+p readlink -f file.png,chmod 800 file.png
-12,clears screen,clear,screen,clear
-13,clears contents of myfile.txt,clear myfile.txt,cat myfile.txt | grep -v 'n',clear myfile.txt
-14,clears contents of myfolder and myfile,clear myfolder myfile,ls myfolder myfile,clear myfolder myfile
-15,clears scrollback buffer,clear -x,mkdir scrollback,clear -p -t
-16,copies myfile to myfile2,cp myfile.txt myfile2.txt,cp myfile myfile2,cp myfile myfile2
-17,copies dir1 to dir5 recursively,cp -r dir1 dir5,cp dir1 dir5,cp -R dir1/ dir5
-18,copies myfile to myfile2 and shows verbose output,cp -v myfile.txt myfile2.txt,cp myfile myfile2,cp myfile myfile2
-19,copies myfile to myfile2 and prompts before overwriting,cp -i myfile.txt myfile2.txt,cp myfile myfile2 | tee >(pwd),cp myfile myfile2
-20,List files in current directory,ls,ls,ls -l
-21,List including hidden files,ls -a,ls -a,ls -l
-22,List in long format,ls -l,ls,ls -l
-23,List files by time modified,ls -t,ls,ls -l
-24,Writes Hello World to a file named foobar.txt.,"""echo """"Hello World"""" > foobar.txt""",grep Hello World foobar.txt,"echo ""Hello World"" > foobar.txt"
-25,Writes Welcome to Linux to a file at the specified directory.,"""echo """"Welcome to Linux"""" > /home/user/welcome.txt""",ls -a,"echo ""WHERE TOTALLY"" > /usr/share/bin/"
-26,Appends HELLO to the end of foobar.txt.,"""echo """"HELLO"""" >> foobar.txt""",awk 'print $1' foobar.txt,echo -n HELLO foobar.txt
-27,Writes My name is John to a file named name.txt without a trailing newline.,"""echo -n """"My name is """" && echo """"John"""" > name.txt""",my name is John;      ,"echo ""My name is John"" > name.txt"
-28,Display environment variables,env,set | awk 'print $2',set -o
-29,Start a clean environment,env -i /bin/bash,mkdir -p,env -i
-30,Start a shell with USER variable unset,env -u USER /bin/sh,set -o unset,env -i USER
-31,Edit your crontab file with nano as editor,env EDITOR=nano crontab -e,crontab -l nano,rm -rn -r crontab -r nano
-32,Display system memory.,free,mv,"stat -c ""%n %a %a %a %a"
-33,Display memory in megabytes.,free -m,megabytes | tr -d 'n',"stat -c ""Megabytes"""
-34,Display memory in gigabytes.,free -g,sed -i '/g',"stat -c ""%n %a %a %G"" -"
-35,Display total and used memory.,free -t,df -n,top -d -u
-36,Download file from URL.,wget example.com,cp URL,rm file.txt
-37,Clone repository.,git clone repo,cp,cp -r
-38,Copy file to remote server.,scp file remote:,cp file,cp file.txt
-39,Retrieve data from API.,curl http://api.com,rm -r API,rm -r API
-40,Terminate process 59888,kill -9 59888,ps aux | grep 59888,mv -u 59888
-41,Send SIGTERM signal to the process named myapp,kill -s SIGTERM myapp,ps aux | grep myapp,kill -s SIGTERM myapp
-42,Forcefully kill the process using the file at /tmp/file as input,kill -f /tmp/file,kill -f -f /tmp/file,kill -f /tmp/file
-43,Send SIGTERM signal to all processes in testdir directory,kill -15 testdir,ps aux | grep -E 's/s/,kill -9 testdir
-44,List all files.,ls,ls,ls -l
-45,List files with details.,ls -l,ls,ls -l
-46,List all files including hidden ones.,ls -a,ls -a,ls -l
-47,List files sorted by modification time.,ls -t,ls -l,ls -l
-48,Create directory named testdir,mkdir testdir,mkdir testdir,mkdir testdir
-49,Create directory named dir1 inside current directory,mkdir dir1/,mkdir dir1,mkdir -p dir1
-50,Create directory dir1 with subdirectory dir5,mkdir -p dir1/dir5,mkdir dir1 dir5,mkdir -p dir1/ dir5
-51,Create directory testdir with permissions set to 775,mkdir -m 775 testdir,mkdir testdir 775,mkdir -p 775 testdir
-52,Creates a new temporary file with newfile prefix.,mktemp newfile,mktemp -p newfile,mktemp -p -p newfile
-53,Creates a temporary directory with test-dir prefix.,mktemp test-dir,mktemp -p test-dir,mktemp -p test-dir
-54,Creates a new temporary file with file prefix in the /tmp/ directory.,mktemp -p /tmp/ file,mktemp -p /tmp/,mktemp -p /tmp/ -p file.tx
-55,Creates a new temporary directory in the /var/tmp/ directory.,mktemp -d /var/tmp/,mktemp -p /var/tmp/,mktemp -p /var/tmp/
-56,Rename myfile as myfile2.,mv myfile myfile2,mv myfile myfile2,mv myfile myfile2
-57,Move myfile to folder.,mv myfile folder,mv myfile folder,mv myfile folder
-58,Rename myfolder as folder2.,mv myfolder folder2,mv myfolder folder2,mv myfolder folder2
-59,Move myfile from myfolder to folder2.,mv myfolder/myfile folder2,mv myfile myfolder folder2,mv myfile folder2/
-60,Ping Google.com 5 times,ping google.com -c 5,ping Google.com 5 times,ping -c 5 google.com
-61,Ping server.local indefinitely,ping server.local,ping server.local | grep -v indefinite,ping -N -i server.local
-62,Ping 8.8.8.8 through eth0 interface,ping 8.8.8.8 -I eth0,ping eth0 8.8.8.8,ping -u eth0 8.8.8.8
-63,Ping 192.168.0.119 10 times,ping -n 10 192.168.0.119,ping 192.168.0.119 10 times,ping -c 10 192.168.0.119
-64,Move myfile to dir1,put myfile dir1,mv myfile dir1,mv myfile dir1
-65,Recursively copy dir1 to dir5,put -r dir1 dir5,rsync -rv dir1 dir5,rsync -rv -rv dir1 dir5
-66,Copy myfile to /home/user/dir1,put myfile /home/user/dir1,cp myfile /home/user/dir1,cp myfile /home/user/dir1
-67,Copy myfile with preserve mode,put -p myfile dir1,cp myfile,cp myfile
-68,Print current directory.,pwd,pwd,pwd /usr/share/share/share/share/share/
-69,Print symbolic path.,pwd -L,echo path,pwd /usr/share/share/share/share/share/
-70,Print physical path.,pwd -P,path -p,pwd /usr/share/share/share/share/share/
-71,Print directory path.,pwd /home/user,pwd,pwd /usr/share/share/share/share/share/
-72,remove a file.,rm file.txt,rm file,rmdir file.txt
-73,remove a directory and its contents recursively.,rm -r directory,rmdir,rmdir -r directory
-74,remove a file forcefully.,rm -f file.txt,rm -r,rm -r file.txt
-75,remove a directory and its contents recursively forcefully.,rm -rf directory,rmdir,rmdir -r -v directory
-76,Remove directory last.,rmdir last,rmdir,rmdir last
-77,Remove directory foobar.,rmdir foobar/,rmdir foobar,rmdir foobar
-78,Remove directory dir1 verbosely.,rmdir -v dir1,rmdir dir1,rmdir -v dir1
-79,Remove directory myproj1.,rmdir myproj1/,rmdir myproj1.,rmdir myproj1.
-80,Connect to myhost with myuser,ssh myuser@myhost,ssh -p myuser@myhost,ssh-i -i myuser@myhost
-81,Generate RSA key pair,ssh-keygen -t rsa,ssh-keygen -E 's/(:,ssh-keygen -l -i RSA
-82,Copy public key to host,ssh-copy-id user@host,cp public key host,ssh-keygen -i -i -i host
-83,Enable X11 forwarding,ssh -X user@host,xargs -I '' 'X11',env -i X11
-84,Display status of Documents directory,stat /home/user/Documents,ls,"stat -c ""%n %a %a %a %a"
-85,Display status of passwd file,stat /etc/passwd,df passwd,"stat -c ""%n %a %a %a %a"
-86,Display status of syslog file,stat /var/log/syslog,syslog -r,"stat -c ""%n %a %a %a %a"
-87,Display custom status format of file.txt in tmp directory,"""stat -c """"%n %s %Y"""" /tmp/file.txt""",tmp | awk 'print $2' file.tx,"stat -c ""%n %a %a %a %a"
-88,Follow symbolic links to display status of syslog file,stat -L /var/log/syslog,ln -s syslog,ln -s /etc/syslog
-89,Display status of all files in log directory in a terse format,stat -t /var/log,ls -a,"stat -c ""%n %a %a %a %a"
-90,Display system information.,top,yum | sed -i 's/.*//g',top -n
-91,"Batch mode, keep updating.",top -b,mkdir -p,mv -v -t
-92,Command line show.,top -c,show -c,comm -12 (awk 'print $2')
-93,Delay between updates.,top -d,diff -rm,ls -l
-94,create empty file,touch file.txt,mkdir file,touch file.txt.txt
-95,create empty directory,touch folder/,mkdir empty,mkdir empty
-96,change file access time,touch -a file.txt,chmod -o time d' ',touch file.txt
-97,change file modification time,touch -m file.txt,chmod -R time,touch file.txt
-98,Display directory tree,tree,tree,tree
-99,Display hidden files,tree -a,awk 'print $2',awk 'print $2' file.txt
-100,Display directories only,tree -d,sed -i '/dir//',awk 'print $1' directory
-101,Display one level of directories,tree -L 1,awk 'print $1',top -n -f /home/directory
+,input,ground_truth,kevinum/t5-small-finetuned-English-to-BASH,alexsha/t5-small-finetuned-NL2BASH-customv3,alexsha/t5-large-finetuned-English-to-BASH,alexsha/t5-large-finetuned-NL2BASH-customv3
+0,print contents in file.txt,cat file.txt,cat file.txt | tr 'n' 'n,cat file.txt,cat file.txt,cat file.txt
+1,print contents in file.txt with line numbers,cat -n file.txt,nl -s file.txt,cat file.txt | sed -n 's/s/,cat file.txt | nl,cat file.txt | nl
+2,print contents in file.txt with $ at end,cat -E file.txt,cat file.txt | sed 's/$/s/$,cat file.txt | sed 's/s/$/g,cat file.txt | sed $'s/$//g',cat file.txt | tr 'n' '$'
+3,combine files and myfile2,cat file.txt myfile2.txt,mv file myfile2,mv file myfile2,combine files myfile2,cat file.txt file2.txt
+4,Change directory to /home.,cd /home,cd /home,cd /home,cd /home,cd /home
+5,Go up one level.,cd ..,cp,cd ..,Football -C1>,cd ..
+6,Change directory to Documents.,cd Documents,cd Documents,cd Documents,cd Documents,cd Documents
+7,Return to the previous directory.,cd -,cd $(dirname $(dirname $(dirname $0)),rm -r directory,cd -,cd -
+8,Give everyone full access to file.txt.,chmod 777 file.txt,chmod a+p -r file.txt,chmod 777 file.txt,chmod a+f file.txt,chmod 777 file.txt
+9,"Give the owner read and execute permissions, and others read-only permissions to directory/.",chmod 554 directory/,chmod -a ls -p dirname/,chmod 800 directory/,"chmod u+rx,g+r,o+r directory/",chmod 644 directory/
+10,Give the owner read and write permissions to file.pdf.,chmod 600 file.pdf,chmod a+p readlink -f file.pdf,chmod 800 file.pdf,chmod u+rw file.pdf,chmod 600 file.pdf
+11,"Give the owner read, write, and execute permissions to file.png.",chmod u+rwx file.png,chmod a+p readlink -f file.png,chmod 800 file.png,chmod u+rwx file.png,chmod 700 file.png
+12,clears screen,clear,screen,clear,clear,clear
+13,clears contents of myfile.txt,clear myfile.txt,cat myfile.txt | grep -v 'n',clear myfile.txt,cat myfile.txt | xargs -I  c,clear myfile.txt
+14,clears contents of myfolder and myfile,clear myfolder myfile,ls myfolder myfile,clear myfolder myfile,clear myfolder myfile,clear myfolder myfile
+15,clears scrollback buffer,clear -x,mkdir scrollback,clear -p -t,clear scrollback,clear -x
+16,copies myfile to myfile2,cp myfile.txt myfile2.txt,cp myfile myfile2,cp myfile myfile2,cp myfile myfile2,cp myfile myfile2
+17,copies dir1 to dir5 recursively,cp -r dir1 dir5,cp dir1 dir5,cp -R dir1/ dir5,cp -R dir1 dir5,cp -r dir1 dir5
+18,copies myfile to myfile2 and shows verbose output,cp -v myfile.txt myfile2.txt,cp myfile myfile2,cp myfile myfile2,cp myfile myfile2,cp -v myfile myfile2
+19,copies myfile to myfile2 and prompts before overwriting,cp -i myfile.txt myfile2.txt,cp myfile myfile2 | tee >(pwd),cp myfile myfile2,cp myfile myfile2,cp -i myfile myfile2
+20,List files in current directory,ls,ls,ls -l,ls,ls
+21,List including hidden files,ls -a,ls -a,ls -l,ls -a,ls -a
+22,List in long format,ls -l,ls,ls -l,ls -l,ls -l
+23,List files by time modified,ls -t,ls,ls -l,ls -lt,ls -t
+24,Writes Hello World to a file named foobar.txt.,"Hello World" > foobar.txt > foobar.txt",echo Hello World > foobar.txt,"echo ""Hello World"" > foobar.txt"
+25,Writes Welcome to Linux to a file at the specified directory.,"""echo """"Welcome to Linux"""" > /home/user/welcome.txt""",ls -a,"echo ""WHERE TOTALLY"" > /usr/share/bin/",echo Welcome to Linux | xargs dirname,"echo ""Welcome to Linux"" > /home/user/welcome"
+26,Appends HELLO to the end of foobar.txt.,"""echo """"HELLO"""" >> foobar.txt""",awk 'print $1' foobar.txt,echo -n HELLO foobar.txt,echo HELLO > foobar.txt,"echo ""HELLO"" >> foobar.txt"
+27,Writes My name is John to a file named name.txt without a trailing newline.,"""echo -n """"My name is """" && echo """"John"""" > name.txt""",my name is John;      ,"echo ""My name is John"" > name.txt",echo My name is John | tr 'n' ' ' >,"echo -n ""My name is "" && echo ""John"" > name."
+28,Display environment variables,env,set | awk 'print $2',set -o,set,env
+29,Start a clean environment,env -i /bin/bash,mkdir -p,env -i,env -C,env -i /bin/bash
+30,Start a shell with USER variable unset,env -u USER /bin/sh,set -o unset,env -i USER,set -o user=unset,env -u USER /bin/sh
+31,Edit your crontab file with nano as editor,env EDITOR=nano crontab -e,crontab -l nano,rm -rn -r crontab -r nano,crontab -e nano,env EDITOR=nano crontab -e
+32,Display system memory.,free,mv,"stat -c ""%n %a %a %a %a",df -h,free
+33,Display memory in megabytes.,free -m,megabytes | tr -d 'n',"stat -c ""Megabytes""",df -h,free -m
+34,Display memory in gigabytes.,free -g,sed -i '/g',"stat -c ""%n %a %a %G"" -",env | awk 'print $5',free -g
+35,Display total and used memory.,free -t,df -n,top -d -u,df -h | tail -1 | awk 'print,free -t
+36,Download file from URL.,wget example.com,cp URL,rm file.txt,curl -v http://www.google.fr/file.tx,wget example.com
+37,Clone repository.,git clone repo,cp,cp -r,rsync -v repo.git,git clone repo
+38,Copy file to remote server.,scp file remote:,cp file,cp file.txt,rsync -r file,scp file user@host:
+39,Retrieve data from API.,curl http://api.com,rm -r API,rm -r API,awk 'print $1' API,curl http://api.com
+40,Terminate process 59888,kill -9 59888,ps aux | grep 59888,mv -u 59888,kill -9 59888,kill -9 59888
+41,Send SIGTERM signal to the process named myapp,kill -s SIGTERM myapp,ps aux | grep myapp,kill -s SIGTERM myapp,"kill $(ps -o pid,ppid) myapp",kill -15 myapp
+42,Forcefully kill the process using the file at /tmp/file as input,kill -f /tmp/file,kill -f -f /tmp/file,kill -f /tmp/file,kill -9 /tmp/file,kill -f /tmp/file
+43,Send SIGTERM signal to all processes in testdir directory,kill -15 testdir,ps aux | grep -E 's/s/,kill -9 testdir,"kill $(ps -A -o pid,ppid) testdir",kill -15 testdir
+44,List all files.,ls,ls,ls -l,ls,ls
+45,List files with details.,ls -l,ls,ls -l,ls -l,ls -l
+46,List all files including hidden ones.,ls -a,ls -a,ls -l,ls -a,ls -a
+47,List files sorted by modification time.,ls -t,ls -l,ls -l,sort -t,ls -t
+48,Create directory named testdir,mkdir testdir,mkdir testdir,mkdir testdir,mkdir testdir,mkdir testdir
+49,Create directory named dir1 inside current directory,mkdir dir1/,mkdir dir1,mkdir -p dir1,mkdir -p dir1,mkdir -p dir1/dir2
+50,Create directory dir1 with subdirectory dir5,mkdir -p dir1/dir5,mkdir dir1 dir5,mkdir -p dir1/ dir5,mkdir dir1 dir5,mkdir -p dir1/dir5
+51,Create directory testdir with permissions set to 775,mkdir -m 775 testdir,mkdir testdir 775,mkdir -p 775 testdir,mkdir -p 775 testdir,mkdir -m 775 testdir
+52,Creates a new temporary file with newfile prefix.,mktemp newfile,mktemp -p newfile,mktemp -p -p newfile,mktemp newfile,mktemp newfile
+53,Creates a temporary directory with test-dir prefix.,mktemp test-dir,mktemp -p test-dir,mktemp -p test-dir,mktemp test-dir,mktemp test-dir
+54,Creates a new temporary file with file prefix in the /tmp/ directory.,mktemp -p /tmp/ file,mktemp -p /tmp/,mktemp -p /tmp/ -p file.tx,mktemp -t,mktemp -p /tmp/ file
+55,Creates a new temporary directory in the /var/tmp/ directory.,mktemp -d /var/tmp/,mktemp -p /var/tmp/,mktemp -p /var/tmp/,mktemp /var/tmp/,mktemp -d /var/tmp/
+56,Rename myfile as myfile2.,mv myfile myfile2,mv myfile myfile2,mv myfile myfile2,mv myfile myfile2,mv myfile myfile2
+57,Move myfile to folder.,mv myfile folder,mv myfile folder,mv myfile folder,mv myfile folder,mv myfile folder
+58,Rename myfolder as folder2.,mv myfolder folder2,mv myfolder folder2,mv myfolder folder2,mv myfolder folder2,mv myfolder folder2
+59,Move myfile from myfolder to folder2.,mv myfolder/myfile folder2,mv myfile myfolder folder2,mv myfile folder2/,mv myfile folder2 folder1,mv myfile folder2
+60,Ping Google.com 5 times,ping google.com -c 5,ping Google.com 5 times,ping -c 5 google.com,ping google.com 5,ping google.com -c 5
+61,Ping server.local indefinitely,ping server.local,ping server.local | grep -v indefinite,ping -N -i server.local,ping server.local indefinitely,ping server.local
+62,Ping 8.8.8.8 through eth0 interface,ping 8.8.8.8 -I eth0,ping eth0 8.8.8.8,ping -u eth0 8.8.8.8,ping 8.8.8.8 | eth0,ping 8.8.8.8 -I eth0
+63,Ping 192.168.0.119 10 times,ping -n 10 192.168.0.119,ping 192.168.0.119 10 times,ping -c 10 192.168.0.119,ping -c 10 192.168.0.119,ping -n 10 192.168.0.119
+64,Move myfile to dir1,put myfile dir1,mv myfile dir1,mv myfile dir1,mv myfile dir1,put myfile dir1
+65,Recursively copy dir1 to dir5,put -r dir1 dir5,rsync -rv dir1 dir5,rsync -rv -rv dir1 dir5,rsync -rvv dir1 dir5,put -r dir1 dir5
+66,Copy myfile to /home/user/dir1,put myfile /home/user/dir1,cp myfile /home/user/dir1,cp myfile /home/user/dir1,cp myfile /home/user/dir1,put myfile /home/user/dir1
+67,Copy myfile with preserve mode,put -p myfile dir1,cp myfile,cp myfile,cp myfile | xargs -n 1 rsyn,put -p myfile dir1 dir2
+68,Print current directory.,pwd,pwd,pwd /usr/share/share/share/share/share/,pwd,pwd
+69,Print symbolic path.,pwd -L,echo path,pwd /usr/share/share/share/share/share/,echo $(dirname $(readlink -f $0)),pwd -L
+70,Print physical path.,pwd -P,path -p,pwd /usr/share/share/share/share/share/,echo $(dirname $(readlink -f $0)),pwd -P
+71,Print directory path.,pwd /home/user,pwd,pwd /usr/share/share/share/share/share/,dirname,pwd /usr/share/locale/tr
+72,remove a file.,rm file.txt,rm file,rmdir file.txt,rm [file name],rm file.txt
+73,remove a directory and its contents recursively.,rm -r directory,rmdir,rmdir -r directory,rmdir directory name>,rm -r directory
+74,remove a file forcefully.,rm -f file.txt,rm -r,rm -r file.txt,rm -f,rm -f file.txt
+75,remove a directory and its contents recursively forcefully.,rm -rf directory,rmdir,rmdir -r -v directory,rm -rf directory name>,rm -rf directory
+76,Remove directory last.,rmdir last,rmdir,rmdir last,rmdir last,rmdir last/
+77,Remove directory foobar.,rmdir foobar/,rmdir foobar,rmdir foobar,rmdir foobar,rmdir foobar/
+78,Remove directory dir1 verbosely.,rmdir -v dir1,rmdir dir1,rmdir -v dir1,rm -v dir1,rmdir -v dir1
+79,Remove directory myproj1.,rmdir myproj1/,rmdir myproj1.,rmdir myproj1.,rmdir myproj1,rmdir myproj1/
+80,Connect to myhost with myuser,ssh myuser@myhost,ssh -p myuser@myhost,ssh-i -i myuser@myhost,ssh -t myuser myhost,ssh myuser@myhost
+81,Generate RSA key pair,ssh-keygen -t rsa,ssh-keygen -E 's/(:,ssh-keygen -l -i RSA,ssh-keygen -l -E RSA,ssh-keygen -t rsa
+82,Copy public key to host,ssh-copy-id user@host,cp public key host,ssh-keygen -i -i -i host,ssh-keygen -p hostname,ssh-copy-id user@host
+83,Enable X11 forwarding,ssh -X user@host,xargs -I '' 'X11',env -i X11,shopt -s x11,ssh -X user@host
+84,Display status of Documents directory,stat /home/user/Documents,ls,"stat -c ""%n %a %a %a %a",readlink -f $(pwd),stat /home/user/Documents
+85,Display status of passwd file,stat /etc/passwd,df passwd,"stat -c ""%n %a %a %a %a",file -p $(status passwd),stat /etc/passwd
+86,Display status of syslog file,stat /var/log/syslog,syslog -r,"stat -c ""%n %a %a %a %a",stat -f syslog,stat /var/log/syslog
+87,Display custom status format of file.txt in tmp directory,"""stat -c """"%n %s %Y"""" /tmp/file.txt""",tmp | awk 'print $2' file.tx,"stat -c ""%n %a %a %a %a",cat /file.txt | tmp -F,"stat -c ""%n %S"" /tmp/file.t"
+88,Follow symbolic links to display status of syslog file,stat -L /var/log/syslog,ln -s syslog,ln -s /etc/syslog,readlink -f $(which syslog),stat -L /var/log/syslog
+89,Display status of all files in log directory in a terse format,stat -t /var/log,ls -a,"stat -c ""%n %a %a %a %a",cat log | awk 'print $2',stat -t /var/log
+90,Display system information.,top,yum | sed -i 's/.*//g',top -n,uname -a,top
+91,"Batch mode, keep updating.",top -b,mkdir -p,mv -v -t,set -o update,top -b
+92,Command line show.,top -c,show -c,comm -12 (awk 'print $2'),awk 'print $2',top -c
+93,Delay between updates.,top -d,diff -rm,ls -l,set -d,top -d
+94,create empty file,touch file.txt,mkdir file,touch file.txt.txt,touch [filename],touch file.txt
+95,create empty directory,touch folder/,mkdir empty,mkdir empty,mkdir -p /dev/null,touch folder/
+96,change file access time,touch -a file.txt,chmod -o time d' ',touch file.txt,chmod -A 4 time -f ,touch -a file.txt
+97,change file modification time,touch -m file.txt,chmod -R time,touch file.txt,chmod +%T,touch -m file.txt
+98,Display directory tree,tree,tree,tree,tree,tree
+99,Display hidden files,tree -a,awk 'print $2',awk 'print $2' file.txt,df,tree -h
+100,Display directories only,tree -d,sed -i '/dir//',awk 'print $1' directory,pwd,tree -d
+101,Display one level of directories,tree -L 1,awk 'print $1',top -n -f /home/directory,df -A,tree -L 1

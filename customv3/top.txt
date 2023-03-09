@@ -1,5 +1,3 @@
-Sure, here are 100 real examples of Linux commands - "top" with different mock-up file/directory names, and their descriptions:
-
 1. top -> Display system information.
 2. top -b -> Batch mode, keep updating.
 3. top -c -> Command line show.
@@ -11,7 +9,7 @@ Sure, here are 100 real examples of Linux commands - "top" with different mock-u
 9. top -p -> Specific process ID.
 10. top -S -> Cumulative time view.
 11. top -s -> Sort by field.
-12. top -U -> Specific user’s processes.
+12. top -U -> Specific userï¿½s processes.
 13. top -u -> Specific user's processes.
 14. top -v -> Show version.
 15. top -w -> Wide output.
@@ -24,7 +22,7 @@ Sure, here are 100 real examples of Linux commands - "top" with different mock-u
 22. top -d 10 -> Delay by 10 seconds.
 23. top -s cpu -> Sort by CPU usage.
 24. top -s mem -> Sort by memory usage.
-25. top -U user -> Monitor user’s processes.
+25. top -U user -> Monitor userï¿½s processes.
 26. top -u user -> Monitor user's processes.
 27. top -v 8.0 -> Show version 8.0.
 28. top -w 160 -> Output width of 160.
@@ -45,13 +43,13 @@ Sure, here are 100 real examples of Linux commands - "top" with different mock-u
 43. top /var/tmp -> Monitor processes in /var/tmp directory.
 44. top -b -i 5 -> Batch mode and updates every 5 seconds.
 45. top -d 15 -s mem -> Delay by 15 seconds and sort by memory usage.
-46. top -H -u user -> Show threads for user’s processes.
+46. top -H -u user -> Show threads for userï¿½s processes.
 47. top -i 3 -w 120 -> Update every 3 seconds and output width of 120.
 48. top -M -u user -> Show memory in MB for user's processes.
 49. top -n 10 -i 2 -> Show top 10 processes with updates every 2 seconds.
 50. top -p 123 -S -> Cumulative time view for process ID 123.
-51. top -s cpu -U user -> Sort by CPU usage and monitor user’s processes.
-52. top -u user -v 8.0 -> Monitor user’s processes and show version 8.0.
+51. top -s cpu -U user -> Sort by CPU usage and monitor userï¿½s processes.
+52. top -u user -v 8.0 -> Monitor userï¿½s processes and show version 8.0.
 53. top -w 180 -Z apache -> Output width of 180 and show apache's security context.
 54. top /usr/sbin -> Monitor processes in /usr/sbin directory.
 55. top /home/user1/public_html -> Monitor processes in /home/user1/public_html directory.
