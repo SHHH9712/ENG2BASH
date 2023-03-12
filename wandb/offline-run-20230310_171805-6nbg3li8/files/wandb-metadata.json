@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.10.9",
+    "heartbeatAt": "2023-03-11T01:18:05.602551",
+    "startedAt": "2023-03-11T01:18:05.482737",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/SHHH9712/NL2BASH-simple.git",
+        "commit": "2ffaf10aa06f11aa803ae26b9edf427a6e4d45a7"
+    },
+    "email": "shhh9712@gmail.com",
+    "root": "C:/Users/sha/Desktop/ENG2BASH",
+    "host": "Desktop-Sha",
+    "username": "sha",
+    "executable": "c:\\Users\\sha\\anaconda3\\envs\\ml\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 3500.0,
+        "min": 0.0,
+        "max": 3500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3500.0,
+            "min": 0.0,
+            "max": 3500.0
+        }
+    ],
+    "disk": {
+        "total": 1862.2910118103027,
+        "used": 790.1109352111816
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 31.776504516601562
+    }
+}

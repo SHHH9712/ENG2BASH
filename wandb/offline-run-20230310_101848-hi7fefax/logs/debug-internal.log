@@ -1,0 +1,63 @@
+2023-03-10 10:18:48,050 INFO    StreamThr :19624 [internal.py:wandb_internal():87] W&B internal server running at pid: 19624, started at: 2023-03-10 10:18:48.049263
+2023-03-10 10:18:48,051 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status
+2023-03-10 10:18:48,055 INFO    WriterThread:19624 [datastore.py:open_for_write():85] open: c:\Users\sha\Desktop\ENG2BASH\wandb\offline-run-20230310_101848-hi7fefax\run-hi7fefax.wandb
+2023-03-10 10:18:48,093 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: run_start
+2023-03-10 10:18:48,109 DEBUG   HandlerThread:19624 [system_info.py:__init__():31] System info init
+2023-03-10 10:18:48,110 DEBUG   HandlerThread:19624 [system_info.py:__init__():46] System info init done
+2023-03-10 10:18:48,110 INFO    HandlerThread:19624 [system_monitor.py:start():151] Starting system monitor
+2023-03-10 10:18:48,110 INFO    SystemMonitor:19624 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-10 10:18:48,110 INFO    HandlerThread:19624 [system_monitor.py:probe():172] Collecting system info
+2023-03-10 10:18:48,112 INFO    SystemMonitor:19624 [interfaces.py:start():168] Started cpu
+2023-03-10 10:18:48,113 INFO    SystemMonitor:19624 [interfaces.py:start():168] Started disk
+2023-03-10 10:18:48,113 INFO    SystemMonitor:19624 [interfaces.py:start():168] Started gpu
+2023-03-10 10:18:48,113 INFO    SystemMonitor:19624 [interfaces.py:start():168] Started memory
+2023-03-10 10:18:48,119 INFO    SystemMonitor:19624 [interfaces.py:start():168] Started network
+2023-03-10 10:18:48,126 DEBUG   HandlerThread:19624 [system_info.py:probe():195] Probing system
+2023-03-10 10:18:48,126 DEBUG   HandlerThread:19624 [system_info.py:_probe_git():180] Probing git
+2023-03-10 10:18:48,172 DEBUG   HandlerThread:19624 [system_info.py:_probe_git():188] Probing git done
+2023-03-10 10:18:48,172 DEBUG   HandlerThread:19624 [system_info.py:probe():241] Probing system done
+2023-03-10 10:18:48,172 DEBUG   HandlerThread:19624 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.10.9', 'heartbeatAt': '2023-03-10T18:18:48.126775', 'startedAt': '2023-03-10T18:18:48.037257', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/SHHH9712/NL2BASH-simple.git', 'commit': '2ffaf10aa06f11aa803ae26b9edf427a6e4d45a7'}, 'email': 'shhh9712@gmail.com', 'root': 'C:/Users/sha/Desktop/ENG2BASH', 'host': 'Desktop-Sha', 'username': 'sha', 'executable': 'c:\\Users\\sha\\anaconda3\\envs\\ml\\python.exe', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 3500.0, 'min': 0.0, 'max': 3500.0}, 'cpu_freq_per_core': [{'current': 3500.0, 'min': 0.0, 'max': 3500.0}], 'disk': {'total': 1862.2910118103027, 'used': 769.2623329162598}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 31.776504516601562}}
+2023-03-10 10:18:48,172 INFO    HandlerThread:19624 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-10 10:18:48,172 INFO    HandlerThread:19624 [system_monitor.py:probe():185] Publishing system info
+2023-03-10 10:18:48,172 DEBUG   HandlerThread:19624 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-10 10:18:48,173 DEBUG   HandlerThread:19624 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-10 10:18:48,173 DEBUG   HandlerThread:19624 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-10 10:18:51,261 DEBUG   HandlerThread:19624 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-10 10:18:51,271 INFO    HandlerThread:19624 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-10 10:18:53,107 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:18:53,107 DEBUG   SenderThread:19624 [sender.py:send_request():363] send_request: status_report
+2023-03-10 10:18:58,157 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:18:58,157 DEBUG   SenderThread:19624 [sender.py:send_request():363] send_request: status_report
+2023-03-10 10:19:03,203 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:03,203 DEBUG   SenderThread:19624 [sender.py:send_request():363] send_request: status_report
+2023-03-10 10:19:08,257 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:08,257 DEBUG   SenderThread:19624 [sender.py:send_request():363] send_request: status_report
+2023-03-10 10:19:13,315 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:13,315 DEBUG   SenderThread:19624 [sender.py:send_request():363] send_request: status_report
+2023-03-10 10:19:18,364 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:18,365 DEBUG   SenderThread:19624 [sender.py:send_request():363] send_request: status_report
+2023-03-10 10:19:23,416 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:23,416 DEBUG   SenderThread:19624 [sender.py:send_request():363] send_request: status_report
+2023-03-10 10:19:24,153 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: pause
+2023-03-10 10:19:24,153 INFO    HandlerThread:19624 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-10 10:19:24,153 INFO    HandlerThread:19624 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-10 10:19:24,153 DEBUG   SystemMonitor:19624 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-10 10:19:24,158 DEBUG   SystemMonitor:19624 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-10 10:19:24,158 DEBUG   SystemMonitor:19624 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-10 10:19:24,158 INFO    HandlerThread:19624 [interfaces.py:finish():175] Joined cpu
+2023-03-10 10:19:24,159 INFO    HandlerThread:19624 [interfaces.py:finish():175] Joined disk
+2023-03-10 10:19:24,205 INFO    HandlerThread:19624 [interfaces.py:finish():175] Joined gpu
+2023-03-10 10:19:24,206 INFO    HandlerThread:19624 [interfaces.py:finish():175] Joined memory
+2023-03-10 10:19:24,206 INFO    HandlerThread:19624 [interfaces.py:finish():175] Joined network
+2023-03-10 10:19:28,454 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:28,454 DEBUG   SenderThread:19624 [sender.py:send_request():363] send_request: status_report
+2023-03-10 10:19:33,483 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:33,484 DEBUG   SenderThread:19624 [sender.py:send_request():363] send_request: status_report
+2023-03-10 10:19:38,524 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:38,524 DEBUG   SenderThread:19624 [sender.py:send_request():363] send_request: status_report
+2023-03-10 10:19:43,567 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:43,567 DEBUG   SenderThread:19624 [sender.py:send_request():363] send_request: status_report
+2023-03-10 10:19:48,610 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:48,610 DEBUG   SenderThread:19624 [sender.py:send_request():363] send_request: status_report
+2023-03-10 10:19:53,632 DEBUG   HandlerThread:19624 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:53,632 DEBUG   SenderThread:19624 [sender.py:send_request():363] send_request: status_report

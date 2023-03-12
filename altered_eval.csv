@@ -1,3 +1,0 @@
-input,ground_truth,kevinum/t5-small-finetuned-English-to-BASH,alexsha/t5-small-finetuned-NL2BASH-customv3,alexsha/t5-large-finetuned-English-to-BASH,alexsha/t5-large-finetuned-NL2BASH-customv3
-Display the contents of the file called "file.txt".,cat file.txt,cat file.txt,cat file.txt,cat file.txt,cat file.txt
-Display the content of file.txt along with their corresponding line numbers.,cat -n file.txt,awk 'print $2' file.txt | sed,cat file.txt | awk 'print $2',cat file.txt | nl,cat -l file.txt

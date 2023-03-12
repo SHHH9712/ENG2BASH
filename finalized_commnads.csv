@@ -1,6 +1,6 @@
 commands
-ls
 cd
+ls
 cat
 mv
 rm
